@@ -1,0 +1,59 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+/* / Global Styling / Style guide / */
+
+body{   
+    font-family: 'Josefin Sans', sans-serif;
+    background: #4834d3;
+    color: white;
+}
+h1{
+    font-size: 48px;
+}
+h2{
+    font-size: 40px;
+}
+h3{
+    font-size: 26px;
+}
+h4 {
+    font-size: 22px;
+}
+h5{
+    font-size: 20px;
+}
+h6{
+    font-size: 18px;
+}
+/* section css start here */
+
+header{
+    background: #4834d3;
+}
+
+header .logo img{
+    width: 100%;
+}
+header .navbar{
+    font-size: 14px;
+}
+
+header .row{
+    justify-content: space-between;
+}
+
+.card-header{
+    background: #4834d3;
+}
+
+.card-header .card-link{
+    text-decoration: none;
+    color: white;
+}
+
+.card-body{
+    background: #4834d3;
+}
