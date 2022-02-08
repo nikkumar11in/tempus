@@ -41,6 +41,14 @@ h6{
     padding: 100px 0;
 }
 
+.py-6{
+    padding: 100px 0;
+}
+
+.mb-6{
+    margin-bottom: 50px;
+}
+
 .head-b{
     margin-bottom: 50px;
 }
@@ -62,7 +70,7 @@ header .navbar .navbar-nav{
 /* hero css start here */
 
 .hero{
-    background-image: url(./image/self_cofidence.jpg);
+    background-image: url(../image/self_cofidence.jpg);
 }
 
 .hero .currency p{
@@ -146,7 +154,7 @@ header .navbar .navbar-nav{
 /* about css start here */
 
 .about .years .year{
-    color: darkblue;
+    color: #00008b;
 }
 
 /* teamk css start here */
@@ -160,7 +168,7 @@ header .navbar .navbar-nav{
     /* width: 278px; */
     width: 250px;
     height: 242px;
-    margin: 0 auto;
+    margin: 0 auto; /* mx-auto */
     overflow: hidden;
 }
 
@@ -169,7 +177,7 @@ header .navbar .navbar-nav{
 }
 
 .team .developer .bio .fig-img figure img{
-    width: 100%;
+    width: 100%;/* w-100 */
 }
 
 .team .developer .bio .fig-img{
@@ -179,7 +187,7 @@ header .navbar .navbar-nav{
 /* partnew css start here */
 
 .partner .oscar figure img{
-    width: 100%;
+    width: 100%;/* w-100 */
 }
 
 /* distrip css start here */
@@ -217,14 +225,18 @@ header .navbar .navbar-nav{
 }
 
 /* footer csss start here */
+footer .upper .email form fieldset{
+    overflow: hidden;
 
+}
 footer .upper .email form input{
-    width: 100%;
+    width: 70%;
     position: relative;
 }
 footer .upper .email form .btn{
-    position: absolute;
-    right: 14px;
+   width: 30%;
+   border: 0;
+   border-radius: 0;
 }
 
 footer .upper .email form ::-webkit-input-placeholder{
@@ -240,23 +252,23 @@ footer .lower .social ul li{
 }
 
 footer .lower{
-    border-top: 1px solid white;
-    border-bottom: 1px solid  white;
+    border-top: 1px solid #fff;
+    border-bottom: 1px solid  #fff;
 }
 
 /* media query start here */
 
-@media screen and(min-width: 768px){
+@media screen and (min-width: 768px){
     header .logo{
         width: 0%;
         text-align: left;
     }
 }
 
-@media screen and(min-width: 992px){
+@media screen and (min-width: 992px){
 
 }
 
-@media screen and(min-width: 1200px){
+@media screen and (min-width: 1200px){
 
 }
