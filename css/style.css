@@ -28,21 +28,164 @@ h5{
 h6{
     font-size: 18px;
 }
+
+.btn-bg{
+    background-image: linear-gradient(to bottom right, #8573fd, rgb(39, 6, 158));
+}
+
+.font-s{
+    font-size: 14px;
+}
+
+.sec-p{
+    padding: 100px 0;
+}
+
+.head-b{
+    margin-bottom: 50px;
+}
+
 /* section css start here */
 
 header{
     background: #4834d3;
 }
+header .logo{
+    width: 100%;
+    text-align: center;
+}
 
-header .logo img{
+header .navbar .navbar-nav{
     width: 100%;
 }
-header .navbar{
-    font-size: 14px;
+
+/* hero css start here */
+
+.hero{
+    background-image: url(./image/self_cofidence.jpg);
 }
 
-header .row{
-    justify-content: space-between;
+.hero .currency p{
+    word-spacing: 2px;
+    line-height: 28px;
+} 
+
+.hero .token{
+    color: darkblue;
+}
+
+.hero .token .blogs ul li {
+    height: 93px;
+    font-size: 31px;
+    font-weight: bold;
+    box-shadow: 0 4px 8px 0 rgb(0 0 0 / 20%), 0 6px 20px 0 rgb(0 0 0 / 19%);
+}
+
+.hero .token .blogs .c-sign{
+    display: inline-block;
+    width: 40px;
+    height: 40px;
+    box-shadow: 0 4px 8px 0 rgb(0 0 0 / 20%), 0 6px 20px 0 rgb(0 0 0 / 19%);
+}
+
+.hero .token .blogs ul li span{
+    font-size: 20px;
+}
+
+.hero .token .soft .cap{
+    box-shadow: 0 4px 8px 0 rgb(0 0 0 / 20%), 0 6px 20px 0 rgb(0 0 0 / 19%);
+    cursor: pointer;
+    color: darkblue;
+}
+
+.hero .scroll{
+    width: 39px;
+    margin: 0 auto;
+}
+
+/* financial css start here */
+
+.financial .video{
+    overflow: hidden;
+    opacity: 0.5;
+    height: 250px;
+    /* border-radius: 5px; */
+}
+
+/* sale css start here */
+.sale {
+    color: darkblue;
+}
+.sale .buy .blogs ul li{
+    height: 93px;
+    font-size: 31px;
+    font-weight: bold;
+    box-shadow: 0 4px 8px 0 rgb(0 0 0 / 20%), 0 6px 20px 0 rgb(0 0 0 / 19%);
+}
+.sale .buy{
+    box-shadow: 0 4px 8px 0 rgb(0 0 0 / 20%), 0 6px 20px 0 rgb(0 0 0 / 19%);
+    width: 100%;
+}
+
+.sale .buy .blogs .c-sign{
+    display: inline-block;
+    width: 40px;
+    height: 40px;
+    color: darkblue;
+    box-shadow: 0 4px 8px 0 rgb(0 0 0 / 20%), 0 6px 20px 0 rgb(0 0 0 / 19%);
+}
+
+.sale .buy .blogs ul li span{
+    font-size: 20px;
+}
+
+.sale .caps .btn{
+    color: #5050d9;
+}
+
+/* about css start here */
+
+.about .years .year{
+    color: darkblue;
+}
+
+/* teamk css start here */
+
+.team .top-bio{
+    box-shadow: 0 0px 0px 0 rgb(0 0 0 / 20%), 0 0px 2px 0 rgb(0 0 0 / 19%);
+}
+
+.team .developer .bio .fig-img figure {
+    border: 6px solid white;
+    /* width: 278px; */
+    width: 250px;
+    height: 242px;
+    margin: 0 auto;
+    overflow: hidden;
+}
+
+.team .developer .bio{
+    height: 400px;
+}
+
+.team .developer .bio .fig-img figure img{
+    width: 100%;
+}
+
+.team .developer .bio .fig-img{
+    margin: -10px;
+}
+
+/* partnew css start here */
+
+.partner .oscar figure img{
+    width: 100%;
+}
+
+/* distrip css start here */
+
+.distrip .accordion .card{
+    box-shadow: 0px 0px 14px -3px;
 }
 
 .card-header{
@@ -56,4 +199,64 @@ header .row{
 
 .card-body{
     background: #4834d3;
+}
+
+/* stay css start here */
+
+.stay form input{
+    background: #4834d3;
+    box-shadow: 0px 0px 16px -10px;
+}
+
+.stay form ::-webkit-input-placeholder{
+    color: white;
+}
+
+.stay form .long{
+    height: 150px;
+}
+
+/* footer csss start here */
+
+footer .upper .email form input{
+    width: 100%;
+    position: relative;
+}
+footer .upper .email form .btn{
+    position: absolute;
+    right: 14px;
+}
+
+footer .upper .email form ::-webkit-input-placeholder{
+    font-size: 14;
+    color: darkblue;
+}
+
+footer .lower .social ul li{
+    width: 50px;
+    cursor: pointer;
+    height: 50px;
+    padding: 14px;
+}
+
+footer .lower{
+    border-top: 1px solid white;
+    border-bottom: 1px solid  white;
+}
+
+/* media query start here */
+
+@media screen and(min-width: 768px){
+    header .logo{
+        width: 0%;
+        text-align: left;
+    }
+}
+
+@media screen and(min-width: 992px){
+
+}
+
+@media screen and(min-width: 1200px){
+
 }
