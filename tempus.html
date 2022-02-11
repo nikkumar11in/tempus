@@ -8,6 +8,7 @@
   <title>Tempus</title>
   <link rel="stylesheet" href="css/bs-4.6.1.css">
   <link rel="stylesheet" href="css/style.css">
+  <link rel="stylesheet" href="css/all.css">
 </head>
 
 <body>
@@ -19,11 +20,12 @@
           <a href="javascript:void(0)"><img src="./image/logo.jpg" alt="logo-image"></a>
         </div>
         <nav class="navbar navbar-expand-lg navbar-light col-lg-9 col-md-12 font-s">
-          <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
+          <button class="navbar-toggler bg-white" type="button" data-toggle="collapse" data-target="#navbarNavDropdown"
+            aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
             <span class="navbar-toggler-icon"></span>
           </button>
           <div class="collapse navbar-collapse" id="navbarNavDropdown">
-            <ul class="navbar-nav justify-content-between">
+            <ul class="navbar-nav w-100 justify-content-between">
               <li class="nav-item active">
                 <a class="nav-link text-white" href="javascript:void(0)">ABOUT COMPANY<span
                     class="sr-only">(current)</span></a>
@@ -73,15 +75,15 @@
   <!-- main start here -->
   <main>
     <!-- hero start here -->
-    <section class="hero sec-p">
+    <section class="hero py-6 position-relative">
       <div class="container">
         <div class="row align-items-center">
-          <div class="currency col-lg-6">
+          <div class="currency col-lg-6 my-4">
             <h2>The most <strong>powerful </strong>cryptocurrency</h2>
             <P class="my-4 font-s">Lorem, ipsum dolor sit amet consectetur adipisicing elit. amet consectetur
               adipisicing elit Accusantium aliquid rem modi, suscipit, nemo velit cupiditate repellat laborum porro
               neque amet consectetur adipisicing elit amet consectetur adipisicing financial services?</P>
-            <button type="button" class="btn btn-outline-light rounded-pill border-primary px-4 py-2 font-s">TOKEN
+            <button type="button" class="btn btn-outline-light rounded-pill border-primary px-4 py-2 font-s ">TOKEN
               DISTRIBUTION</button>
           </div>
           <div class="token col-lg-6 bg-white p-5 text-center">
@@ -93,8 +95,8 @@
                   <li class="col-lg-2 py-4 px-0 rounded">28 <span>m</span></li>
                   <li class="col-lg-2 py-4 px-0 rounded">3 <span>s</span></li>
                 </ul>
-                <div class="cbtn d-flex justify-content-between py-5 border-bottom border-secondary">
-                  <div class="doller">
+                <div class="cbtn d-flex justify-content-between py-5 border-bottom border-secondary row">
+                  <div class="doller col-lg-6 col-md-6 col-12">
                     <div class="c-sign mx-2 py-2 px-0 rounded">
                       $
                     </div>
@@ -105,25 +107,27 @@
                       $
                     </div>
                   </div>
-                  <button type="button" class="btn btn-outline-light rounded-pill btn-bg px-4 py-2 font-s">BUY
-                    TOKENS</button>
+                  <div class="buy-token-btn col-lg-6 col-md-6 col-12 m-2 m-lg-0 m-md-0"><button type="button"
+                      class="btn btn-outline-light rounded-pill btn-bg px-4 py-2 font-s">BUY
+                      TOKENS</button>
+                  </div>
                 </div>
               </div>
             </div>
-            <div class="soft row justify-content-between mt-4">
-              <div class="cap col-lg-5 p-2 my-2 rounded font-s"><span>Soft Cap - 5 M</span></div>
-              <div class="cap col-lg-5 p-2 my-2 rounded font-s"><span>Bounty - 50M</span></div>
-              <div class="cap col-lg-5 p-2 my-2 rounded font-s"><span>Hard Cap - 200M</span></div>
-              <div class="cap col-lg-5 p-2 my-2 rounded font-s"><span>Ending - 5 May</span></div>
+            <div class="btn-group soft row justify-content-between mt-4" role="group" aria-label="Basic example">
+              <button type="button" class="btn col-lg-5 p-2 my-2 rounded font-s">Soft Cap - 5 M</button>
+              <button type="button" class="btn col-lg-5 p-2 my-2 rounded font-s">Bounty - 50M</button>
+              <button type="button" class="btn col-lg-5 p-2 my-2 rounded font-s">Hard Cap - 200M</button>
+              <button type="button" class="btn col-lg-5 p-2 my-2 rounded font-s">Ending - 5 May</button>
             </div>
           </div>
         </div>
       </div>
     </section>
     <!-- financial start here -->
-    <section class="financial sec-p border-top border-dark">
+    <section class="financial py-6">
       <div class="container">
-        <div class="row">
+        <div class="row text-md-left text-center">
           <div class="work col-lg-6">
             <h2>We make financial system work better!</h2>
             <p class="my-4 font-s">Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolores reiciendis possimus
@@ -132,7 +136,7 @@
               Voluptates voluptatum sequi vero maxime! Illum system.</p>
           </div>
           <div class="video col-lg-6 rounded">
-            <iframe width="560" height="250" src="https://www.youtube.com/embed/n9Y2Eb4BaSg"
+            <iframe width="100%" height="250" src="https://www.youtube.com/embed/n9Y2Eb4BaSg"
               title="YouTube video player" frameborder="0"
               allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
               allowfullscreen></iframe>
@@ -143,7 +147,7 @@
     <!-- sale start here -->
     <section class="sale">
       <div class="container">
-        <div class="buy sec-p row justify-content-center text-center">
+        <div class="buy py-6 row justify-content-center text-center m-0">
           <div class="blogs col-lg-6 p-5">
             <h2 class="head-b text-white font-weight-bold">Token Sale</h2>
             <ul class="row justify-content-around list-unstyled">
@@ -152,8 +156,8 @@
               <li class="col-lg-2 py-4 px-0 rounded bg-white" bg-white>28 <span>m</span></li>
               <li class="col-lg-2 py-4 px-0 rounded bg-white">3 <span>s</span></li>
             </ul>
-            <div class="cbtn d-flex justify-content-between py-5">
-              <div class="doller">
+            <div class="cbtn d-flex justify-content-between justify-content-md-center py-5 row">
+              <div class="doller col-lg-6 col-12 row justify-content-center">
                 <div class="c-sign mx-2 py-2 px-0 rounded bg-white">
                   $
                 </div>
@@ -164,16 +168,21 @@
                   $
                 </div>
               </div>
-              <button type="button" class="btn btn-outline-light rounded-pill btn-bg px-4 py-2 font-s border-0">BUY
-                TOKENS</button>
+              <div class="sale-btn col-lg-6 col-12 m-2 m-lg-0">
+                <button type="button" class="btn btn-outline-light rounded-pill btn-bg px-4 py-2 font-s border-0">BUY
+                  TOKENS</button>
+              </div>
             </div>
           </div>
           <div class="caps row justify-content-center">
-            <button type="button" class="btn btn-light bg-white py-3 px-5 mx-3 font-weight-bold font-s">Soft Cap -
+            <button type="button"
+              class="btn btn-light bg-white py-3 px-5 mx-3 my-md-2 my-1 font-weight-bold font-s col-lg-3">Soft Cap -
               5M</button>
-            <button type="button" class="btn btn-light bg-white py-3 px-5 mx-3 font-weight-bold font-s">Hard Cap -
+            <button type="button"
+              class="btn btn-light bg-white py-3 px-5 mx-3 my-md-2 my-1 font-weight-bold font-s col-lg-3">Hard Cap -
               200M</button>
-            <button type="button" class="btn btn-light bg-white py-3 px-5 mx-3 font-weight-bold font-s">Ending -5
+            <button type="button"
+              class="btn btn-light bg-white py-3 px-5 mx-3 my-md-2 my-1 font-weight-bold font-s col-lg-3">Ending -5
               April</button>
           </div>
         </div>
@@ -181,27 +190,27 @@
       </div>
     </section>
     <!-- about start here -->
-    <section class="about sec-p text-center">
+    <section class="about py-6 text-center">
       <div class="container">
         <h2 class="head-b font-weight-bold">What We Do Next</h2>
         <div class="years row justify-content-between text-center">
-          <div class="year col-lg-2 bg-white rounded font-s py-3">
+          <div class="year col-lg-2 m-md-3 m-sm-2 m-1 bg-white rounded font-s py-3">
             <h6>2018 1ST Q</h6>
             <span>We start the project</span>
           </div>
-          <div class="year col-lg-2 bg-white rounded font-s py-3">
+          <div class="year col-lg-2 m-md-3 m-sm-2 m-1 bg-white rounded font-s py-3">
             <h6>2018 1ST Q</h6>
             <span>Security improvementst</span>
           </div>
-          <div class="year col-lg-2 bg-white rounded font-s py-3">
+          <div class="year col-lg-2 m-md-3 m-sm-2 m-1 bg-white rounded font-s py-3">
             <h6>2018 2ND Q</h6>
             <span>NKC starting mining</span>
           </div>
-          <div class="year col-lg-2 bg-white rounded font-s py-3">
+          <div class="year col-lg-2 m-md-3 m-sm-2 m-1 bg-white rounded font-s py-3">
             <h6>2018 2ND Q</h6>
             <span>Mining improvements</span>
           </div>
-          <div class="year col-lg-2 bg-white rounded font-s py-3">
+          <div class="year col-lg-2 m-md-3 m-sm-2 m-1 bg-white rounded font-s py-3">
             <h6>2018 3RD Q</h6>
             <span>ICO - 24 Aug. 22:00 GTM</span>
           </div>
@@ -209,49 +218,25 @@
       </div>
     </section>
     <!-- team section start here -->
-    <section class="team sec-p">
+    <section class="team py-6">
       <div class="container">
         <h2 class="head-b text-center font-weight-bold">Developers Team</h2>
         <div class="developer row">
-          <div class="bio col-lg-4">
+          <div class="bio col-lg-4 col-md-6">
             <div class="top-bio row justify-content-between py-3">
-              <ul class="col-lg-6 m-0">
-                <li class="list-unstyled text-white d-inline-block px-2"><a href="javascript:void(0)"><svg
-                      xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="white" class="bi bi-rss-fill"
-                      viewBox="0 0 16 16">
-                      <path
-                        d="M2 0a2 2 0 0 0-2 2v12a2 2 0 0 0 2 2h12a2 2 0 0 0 2-2V2a2 2 0 0 0-2-2H2zm1.5 2.5c5.523 0 10 4.477 10 10a1 1 0 1 1-2 0 8 8 0 0 0-8-8 1 1 0 0 1 0-2zm0 4a6 6 0 0 1 6 6 1 1 0 1 1-2 0 4 4 0 0 0-4-4 1 1 0 0 1 0-2zm.5 7a1.5 1.5 0 1 1 0-3 1.5 1.5 0 0 1 0 3z" />
-                    </svg></a></li>
-                <li class="list-unstyled text-white d-inline-block px-2"><a href="javascript:void(0)"><svg
-                      xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="white" class="bi bi-facebook"
-                      viewBox="0 0 16 16">
-                      <path
-                        d="M16 8.049c0-4.446-3.582-8.05-8-8.05C3.58 0-.002 3.603-.002 8.05c0 4.017 2.926 7.347 6.75 7.951v-5.625h-2.03V8.05H6.75V6.275c0-2.017 1.195-3.131 3.022-3.131.876 0 1.791.157 1.791.157v1.98h-1.009c-.993 0-1.303.621-1.303 1.258v1.51h2.218l-.354 2.326H9.25V16c3.824-.604 6.75-3.934 6.75-7.951z" />
-                    </svg></a></li>
-                <li class="list-unstyled text-white d-inline-block px-2"><a href="javascript:void(0)"><svg
-                      xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="white" class="bi bi-messenger"
-                      viewBox="0 0 16 16">
-                      <path
-                        d="M0 7.76C0 3.301 3.493 0 8 0s8 3.301 8 7.76-3.493 7.76-8 7.76c-.81 0-1.586-.107-2.316-.307a.639.639 0 0 0-.427.03l-1.588.702a.64.64 0 0 1-.898-.566l-.044-1.423a.639.639 0 0 0-.215-.456C.956 12.108 0 10.092 0 7.76zm5.546-1.459-2.35 3.728c-.225.358.214.761.551.506l2.525-1.916a.48.48 0 0 1 .578-.002l1.869 1.402a1.2 1.2 0 0 0 1.735-.32l2.35-3.728c.226-.358-.214-.761-.551-.506L9.728 7.381a.48.48 0 0 1-.578.002L7.281 5.98a1.2 1.2 0 0 0-1.735.32z" />
-                    </svg></a></li>
-                <li class="list-unstyled text-white d-inline-block px-2"><a href="javascript:void(0)"><svg
-                      xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="white" class="bi bi-whatsapp"
-                      viewBox="0 0 16 16">
-                      <path
-                        d="M13.601 2.326A7.854 7.854 0 0 0 7.994 0C3.627 0 .068 3.558.064 7.926c0 1.399.366 2.76 1.057 3.965L0 16l4.204-1.102a7.933 7.933 0 0 0 3.79.965h.004c4.368 0 7.926-3.558 7.93-7.93A7.898 7.898 0 0 0 13.6 2.326zM7.994 14.521a6.573 6.573 0 0 1-3.356-.92l-.24-.144-2.494.654.666-2.433-.156-.251a6.56 6.56 0 0 1-1.007-3.505c0-3.626 2.957-6.584 6.591-6.584a6.56 6.56 0 0 1 4.66 1.931 6.557 6.557 0 0 1 1.928 4.66c-.004 3.639-2.961 6.592-6.592 6.592zm3.615-4.934c-.197-.099-1.17-.578-1.353-.646-.182-.065-.315-.099-.445.099-.133.197-.513.646-.627.775-.114.133-.232.148-.43.05-.197-.1-.836-.308-1.592-.985-.59-.525-.985-1.175-1.103-1.372-.114-.198-.011-.304.088-.403.087-.088.197-.232.296-.346.1-.114.133-.198.198-.33.065-.134.034-.248-.015-.347-.05-.099-.445-1.076-.612-1.47-.16-.389-.323-.335-.445-.34-.114-.007-.247-.007-.38-.007a.729.729 0 0 0-.529.247c-.182.198-.691.677-.691 1.654 0 .977.71 1.916.81 2.049.098.133 1.394 2.132 3.383 2.992.47.205.84.326 1.129.418.475.152.904.129 1.246.08.38-.058 1.171-.48 1.338-.943.164-.464.164-.86.114-.943-.049-.084-.182-.133-.38-.232z" />
-                    </svg></a></li>
-                <li class="list-unstyled text-white d-inline-block px-2"><a href="javascript:void(0)"><svg
-                      xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="white" class="bi bi-instagram"
-                      viewBox="0 0 16 16">
-                      <path
-                        d="M8 0C5.829 0 5.556.01 4.703.048 3.85.088 3.269.222 2.76.42a3.917 3.917 0 0 0-1.417.923A3.927 3.927 0 0 0 .42 2.76C.222 3.268.087 3.85.048 4.7.01 5.555 0 5.827 0 8.001c0 2.172.01 2.444.048 3.297.04.852.174 1.433.372 1.942.205.526.478.972.923 1.417.444.445.89.719 1.416.923.51.198 1.09.333 1.942.372C5.555 15.99 5.827 16 8 16s2.444-.01 3.298-.048c.851-.04 1.434-.174 1.943-.372a3.916 3.916 0 0 0 1.416-.923c.445-.445.718-.891.923-1.417.197-.509.332-1.09.372-1.942C15.99 10.445 16 10.173 16 8s-.01-2.445-.048-3.299c-.04-.851-.175-1.433-.372-1.941a3.926 3.926 0 0 0-.923-1.417A3.911 3.911 0 0 0 13.24.42c-.51-.198-1.092-.333-1.943-.372C10.443.01 10.172 0 7.998 0h.003zm-.717 1.442h.718c2.136 0 2.389.007 3.232.046.78.035 1.204.166 1.486.275.373.145.64.319.92.599.28.28.453.546.598.92.11.281.24.705.275 1.485.039.843.047 1.096.047 3.231s-.008 2.389-.047 3.232c-.035.78-.166 1.203-.275 1.485a2.47 2.47 0 0 1-.599.919c-.28.28-.546.453-.92.598-.28.11-.704.24-1.485.276-.843.038-1.096.047-3.232.047s-2.39-.009-3.233-.047c-.78-.036-1.203-.166-1.485-.276a2.478 2.478 0 0 1-.92-.598 2.48 2.48 0 0 1-.6-.92c-.109-.281-.24-.705-.275-1.485-.038-.843-.046-1.096-.046-3.233 0-2.136.008-2.388.046-3.231.036-.78.166-1.204.276-1.486.145-.373.319-.64.599-.92.28-.28.546-.453.92-.598.282-.11.705-.24 1.485-.276.738-.034 1.024-.044 2.515-.045v.002zm4.988 1.328a.96.96 0 1 0 0 1.92.96.96 0 0 0 0-1.92zm-4.27 1.122a4.109 4.109 0 1 0 0 8.217 4.109 4.109 0 0 0 0-8.217zm0 1.441a2.667 2.667 0 1 1 0 5.334 2.667 2.667 0 0 1 0-5.334z" />
-                    </svg></a></li>
-                <li class="list-unstyled text-white d-inline-block px-2"><a href="javascript:void(0)"><svg
-                      xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="white" class="bi bi-linkedin"
-                      viewBox="0 0 16 16">
-                      <path
-                        d="M0 1.146C0 .513.526 0 1.175 0h13.65C15.474 0 16 .513 16 1.146v13.708c0 .633-.526 1.146-1.175 1.146H1.175C.526 16 0 15.487 0 14.854V1.146zm4.943 12.248V6.169H2.542v7.225h2.401zm-1.2-8.212c.837 0 1.358-.554 1.358-1.248-.015-.709-.52-1.248-1.342-1.248-.822 0-1.359.54-1.359 1.248 0 .694.521 1.248 1.327 1.248h.016zm4.908 8.212V9.359c0-.216.016-.432.08-.586.173-.431.568-.878 1.232-.878.869 0 1.216.662 1.216 1.634v3.865h2.401V9.25c0-2.22-1.184-3.252-2.764-3.252-1.274 0-1.845.7-2.165 1.193v.025h-.016a5.54 5.54 0 0 1 .016-.025V6.169h-2.4c.03.678 0 7.225 0 7.225h2.4z" />
-                    </svg></a></li>
+              <ul class="col-lg-6 m-0 text-white">
+                <li class="list-unstyled text-white d-inline-block px-2"><a href="javascript:void(0)"><i
+                      class="fa-solid fa-wifi text-white"></i></a></li>
+                <li class="list-unstyled text-white d-inline-block px-2"><a href="javascript:void(0)"><i
+                      class="fa-brands fa-facebook text-white "></i></a></li>
+                <li class="list-unstyled text-white d-inline-block px-2"><a href="javascript:void(0)"><i
+                      class="fa-brands fa-facebook-messenger text-white"></i></a></li>
+                <li class="list-unstyled text-white d-inline-block px-2"><a href="javascript:void(0)"><i
+                      class="fa-brands fa-whatsapp text-white"></i></a></li>
+                <li class="list-unstyled text-white d-inline-block px-2"><a href="javascript:void(0)"><i
+                      class="fa-brands fa-instagram text-white"></i></a></li>
+                <li class="list-unstyled text-white d-inline-block px-2"><a href="javascript:void(0)"><i
+                      class="fa-brands fa-linkedin text-white"></i></a></li>
               </ul>
               <div class="john col-lg-6 text-right">
                 <h4 class="font-s font-weight-bolder">John Mavrick</h4>
@@ -259,50 +244,26 @@
               </div>
             </div>
             <div class="fig-img text-center">
-              <figure>
-                <img src="./image/photo-1599566150163-29194dcaad36.jpg" alt="person">
+              <figure class="mx-auto">
+                <img class="w-100" src="./image/photo-1599566150163-29194dcaad36.jpg" alt="person">
               </figure>
             </div>
           </div>
-          <div class="bio col-lg-4">
+          <div class="bio col-lg-4 col-md-6">
             <div class="top-bio row justify-content-between py-3">
-              <ul class="col-lg-6 m-0">
-                <li class="list-unstyled text-white d-inline-block px-2"><a href="javascript:void(0)"><svg
-                      xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="white" class="bi bi-rss-fill"
-                      viewBox="0 0 16 16">
-                      <path
-                        d="M2 0a2 2 0 0 0-2 2v12a2 2 0 0 0 2 2h12a2 2 0 0 0 2-2V2a2 2 0 0 0-2-2H2zm1.5 2.5c5.523 0 10 4.477 10 10a1 1 0 1 1-2 0 8 8 0 0 0-8-8 1 1 0 0 1 0-2zm0 4a6 6 0 0 1 6 6 1 1 0 1 1-2 0 4 4 0 0 0-4-4 1 1 0 0 1 0-2zm.5 7a1.5 1.5 0 1 1 0-3 1.5 1.5 0 0 1 0 3z" />
-                    </svg></a></li>
-                <li class="list-unstyled text-white d-inline-block px-2"><a href="javascript:void(0)"><svg
-                      xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="white" class="bi bi-facebook"
-                      viewBox="0 0 16 16">
-                      <path
-                        d="M16 8.049c0-4.446-3.582-8.05-8-8.05C3.58 0-.002 3.603-.002 8.05c0 4.017 2.926 7.347 6.75 7.951v-5.625h-2.03V8.05H6.75V6.275c0-2.017 1.195-3.131 3.022-3.131.876 0 1.791.157 1.791.157v1.98h-1.009c-.993 0-1.303.621-1.303 1.258v1.51h2.218l-.354 2.326H9.25V16c3.824-.604 6.75-3.934 6.75-7.951z" />
-                    </svg></a></li>
-                <li class="list-unstyled text-white d-inline-block px-2"><a href="javascript:void(0)"><svg
-                      xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="white" class="bi bi-messenger"
-                      viewBox="0 0 16 16">
-                      <path
-                        d="M0 7.76C0 3.301 3.493 0 8 0s8 3.301 8 7.76-3.493 7.76-8 7.76c-.81 0-1.586-.107-2.316-.307a.639.639 0 0 0-.427.03l-1.588.702a.64.64 0 0 1-.898-.566l-.044-1.423a.639.639 0 0 0-.215-.456C.956 12.108 0 10.092 0 7.76zm5.546-1.459-2.35 3.728c-.225.358.214.761.551.506l2.525-1.916a.48.48 0 0 1 .578-.002l1.869 1.402a1.2 1.2 0 0 0 1.735-.32l2.35-3.728c.226-.358-.214-.761-.551-.506L9.728 7.381a.48.48 0 0 1-.578.002L7.281 5.98a1.2 1.2 0 0 0-1.735.32z" />
-                    </svg></a></li>
-                <li class="list-unstyled text-white d-inline-block px-2"><a href="javascript:void(0)"><svg
-                      xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="white" class="bi bi-whatsapp"
-                      viewBox="0 0 16 16">
-                      <path
-                        d="M13.601 2.326A7.854 7.854 0 0 0 7.994 0C3.627 0 .068 3.558.064 7.926c0 1.399.366 2.76 1.057 3.965L0 16l4.204-1.102a7.933 7.933 0 0 0 3.79.965h.004c4.368 0 7.926-3.558 7.93-7.93A7.898 7.898 0 0 0 13.6 2.326zM7.994 14.521a6.573 6.573 0 0 1-3.356-.92l-.24-.144-2.494.654.666-2.433-.156-.251a6.56 6.56 0 0 1-1.007-3.505c0-3.626 2.957-6.584 6.591-6.584a6.56 6.56 0 0 1 4.66 1.931 6.557 6.557 0 0 1 1.928 4.66c-.004 3.639-2.961 6.592-6.592 6.592zm3.615-4.934c-.197-.099-1.17-.578-1.353-.646-.182-.065-.315-.099-.445.099-.133.197-.513.646-.627.775-.114.133-.232.148-.43.05-.197-.1-.836-.308-1.592-.985-.59-.525-.985-1.175-1.103-1.372-.114-.198-.011-.304.088-.403.087-.088.197-.232.296-.346.1-.114.133-.198.198-.33.065-.134.034-.248-.015-.347-.05-.099-.445-1.076-.612-1.47-.16-.389-.323-.335-.445-.34-.114-.007-.247-.007-.38-.007a.729.729 0 0 0-.529.247c-.182.198-.691.677-.691 1.654 0 .977.71 1.916.81 2.049.098.133 1.394 2.132 3.383 2.992.47.205.84.326 1.129.418.475.152.904.129 1.246.08.38-.058 1.171-.48 1.338-.943.164-.464.164-.86.114-.943-.049-.084-.182-.133-.38-.232z" />
-                    </svg></a></li>
-                <li class="list-unstyled text-white d-inline-block px-2"><a href="javascript:void(0)"><svg
-                      xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="white" class="bi bi-instagram"
-                      viewBox="0 0 16 16">
-                      <path
-                        d="M8 0C5.829 0 5.556.01 4.703.048 3.85.088 3.269.222 2.76.42a3.917 3.917 0 0 0-1.417.923A3.927 3.927 0 0 0 .42 2.76C.222 3.268.087 3.85.048 4.7.01 5.555 0 5.827 0 8.001c0 2.172.01 2.444.048 3.297.04.852.174 1.433.372 1.942.205.526.478.972.923 1.417.444.445.89.719 1.416.923.51.198 1.09.333 1.942.372C5.555 15.99 5.827 16 8 16s2.444-.01 3.298-.048c.851-.04 1.434-.174 1.943-.372a3.916 3.916 0 0 0 1.416-.923c.445-.445.718-.891.923-1.417.197-.509.332-1.09.372-1.942C15.99 10.445 16 10.173 16 8s-.01-2.445-.048-3.299c-.04-.851-.175-1.433-.372-1.941a3.926 3.926 0 0 0-.923-1.417A3.911 3.911 0 0 0 13.24.42c-.51-.198-1.092-.333-1.943-.372C10.443.01 10.172 0 7.998 0h.003zm-.717 1.442h.718c2.136 0 2.389.007 3.232.046.78.035 1.204.166 1.486.275.373.145.64.319.92.599.28.28.453.546.598.92.11.281.24.705.275 1.485.039.843.047 1.096.047 3.231s-.008 2.389-.047 3.232c-.035.78-.166 1.203-.275 1.485a2.47 2.47 0 0 1-.599.919c-.28.28-.546.453-.92.598-.28.11-.704.24-1.485.276-.843.038-1.096.047-3.232.047s-2.39-.009-3.233-.047c-.78-.036-1.203-.166-1.485-.276a2.478 2.478 0 0 1-.92-.598 2.48 2.48 0 0 1-.6-.92c-.109-.281-.24-.705-.275-1.485-.038-.843-.046-1.096-.046-3.233 0-2.136.008-2.388.046-3.231.036-.78.166-1.204.276-1.486.145-.373.319-.64.599-.92.28-.28.546-.453.92-.598.282-.11.705-.24 1.485-.276.738-.034 1.024-.044 2.515-.045v.002zm4.988 1.328a.96.96 0 1 0 0 1.92.96.96 0 0 0 0-1.92zm-4.27 1.122a4.109 4.109 0 1 0 0 8.217 4.109 4.109 0 0 0 0-8.217zm0 1.441a2.667 2.667 0 1 1 0 5.334 2.667 2.667 0 0 1 0-5.334z" />
-                    </svg></a></li>
-                <li class="list-unstyled text-white d-inline-block px-2"><a href="javascript:void(0)"><svg
-                      xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="white" class="bi bi-linkedin"
-                      viewBox="0 0 16 16">
-                      <path
-                        d="M0 1.146C0 .513.526 0 1.175 0h13.65C15.474 0 16 .513 16 1.146v13.708c0 .633-.526 1.146-1.175 1.146H1.175C.526 16 0 15.487 0 14.854V1.146zm4.943 12.248V6.169H2.542v7.225h2.401zm-1.2-8.212c.837 0 1.358-.554 1.358-1.248-.015-.709-.52-1.248-1.342-1.248-.822 0-1.359.54-1.359 1.248 0 .694.521 1.248 1.327 1.248h.016zm4.908 8.212V9.359c0-.216.016-.432.08-.586.173-.431.568-.878 1.232-.878.869 0 1.216.662 1.216 1.634v3.865h2.401V9.25c0-2.22-1.184-3.252-2.764-3.252-1.274 0-1.845.7-2.165 1.193v.025h-.016a5.54 5.54 0 0 1 .016-.025V6.169h-2.4c.03.678 0 7.225 0 7.225h2.4z" />
-                    </svg></a></li>
+              <ul class="col-lg-6 m-0 text-white">
+                <li class="list-unstyled text-white d-inline-block px-2"><a href="javascript:void(0)"><i
+                      class="fa-solid fa-wifi text-white"></i></a></li>
+                <li class="list-unstyled text-white d-inline-block px-2"><a href="javascript:void(0)"><i
+                      class="fa-brands fa-facebook text-white "></i></a></li>
+                <li class="list-unstyled text-white d-inline-block px-2"><a href="javascript:void(0)"><i
+                      class="fa-brands fa-facebook-messenger text-white"></i></a></li>
+                <li class="list-unstyled text-white d-inline-block px-2"><a href="javascript:void(0)"><i
+                      class="fa-brands fa-whatsapp text-white"></i></a></li>
+                <li class="list-unstyled text-white d-inline-block px-2"><a href="javascript:void(0)"><i
+                      class="fa-brands fa-instagram text-white"></i></a></li>
+                <li class="list-unstyled text-white d-inline-block px-2"><a href="javascript:void(0)"><i
+                      class="fa-brands fa-linkedin text-white"></i></a></li>
               </ul>
               <div class="john col-lg-6 text-right">
                 <h4 class="font-s font-weight-bolder">Derek Bolzka</h4>
@@ -310,50 +271,26 @@
               </div>
             </div>
             <div class="fig-img text-center">
-              <figure>
-                <img src="./image/11f925a4f0b71224a85e2746b5955976.jpg" alt="person">
+              <figure class="mx-auto">
+                <img class="w-100" src="./image/11f925a4f0b71224a85e2746b5955976.jpg" alt="person">
               </figure>
             </div>
           </div>
-          <div class="bio col-lg-4">
+          <div class="bio col-lg-4 col-md-6">
             <div class="top-bio row justify-content-between py-3">
-              <ul class="col-lg-6 m-0">
-                <li class="list-unstyled text-white d-inline-block px-2"><a href="javascript:void(0)"><svg
-                      xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="white" class="bi bi-rss-fill"
-                      viewBox="0 0 16 16">
-                      <path
-                        d="M2 0a2 2 0 0 0-2 2v12a2 2 0 0 0 2 2h12a2 2 0 0 0 2-2V2a2 2 0 0 0-2-2H2zm1.5 2.5c5.523 0 10 4.477 10 10a1 1 0 1 1-2 0 8 8 0 0 0-8-8 1 1 0 0 1 0-2zm0 4a6 6 0 0 1 6 6 1 1 0 1 1-2 0 4 4 0 0 0-4-4 1 1 0 0 1 0-2zm.5 7a1.5 1.5 0 1 1 0-3 1.5 1.5 0 0 1 0 3z" />
-                    </svg></a></li>
-                <li class="list-unstyled text-white d-inline-block px-2"><a href="javascript:void(0)"><svg
-                      xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="white" class="bi bi-facebook"
-                      viewBox="0 0 16 16">
-                      <path
-                        d="M16 8.049c0-4.446-3.582-8.05-8-8.05C3.58 0-.002 3.603-.002 8.05c0 4.017 2.926 7.347 6.75 7.951v-5.625h-2.03V8.05H6.75V6.275c0-2.017 1.195-3.131 3.022-3.131.876 0 1.791.157 1.791.157v1.98h-1.009c-.993 0-1.303.621-1.303 1.258v1.51h2.218l-.354 2.326H9.25V16c3.824-.604 6.75-3.934 6.75-7.951z" />
-                    </svg></a></li>
-                <li class="list-unstyled text-white d-inline-block px-2"><a href="javascript:void(0)"><svg
-                      xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="white" class="bi bi-messenger"
-                      viewBox="0 0 16 16">
-                      <path
-                        d="M0 7.76C0 3.301 3.493 0 8 0s8 3.301 8 7.76-3.493 7.76-8 7.76c-.81 0-1.586-.107-2.316-.307a.639.639 0 0 0-.427.03l-1.588.702a.64.64 0 0 1-.898-.566l-.044-1.423a.639.639 0 0 0-.215-.456C.956 12.108 0 10.092 0 7.76zm5.546-1.459-2.35 3.728c-.225.358.214.761.551.506l2.525-1.916a.48.48 0 0 1 .578-.002l1.869 1.402a1.2 1.2 0 0 0 1.735-.32l2.35-3.728c.226-.358-.214-.761-.551-.506L9.728 7.381a.48.48 0 0 1-.578.002L7.281 5.98a1.2 1.2 0 0 0-1.735.32z" />
-                    </svg></a></li>
-                <li class="list-unstyled text-white d-inline-block px-2"><a href="javascript:void(0)"><svg
-                      xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="white" class="bi bi-whatsapp"
-                      viewBox="0 0 16 16">
-                      <path
-                        d="M13.601 2.326A7.854 7.854 0 0 0 7.994 0C3.627 0 .068 3.558.064 7.926c0 1.399.366 2.76 1.057 3.965L0 16l4.204-1.102a7.933 7.933 0 0 0 3.79.965h.004c4.368 0 7.926-3.558 7.93-7.93A7.898 7.898 0 0 0 13.6 2.326zM7.994 14.521a6.573 6.573 0 0 1-3.356-.92l-.24-.144-2.494.654.666-2.433-.156-.251a6.56 6.56 0 0 1-1.007-3.505c0-3.626 2.957-6.584 6.591-6.584a6.56 6.56 0 0 1 4.66 1.931 6.557 6.557 0 0 1 1.928 4.66c-.004 3.639-2.961 6.592-6.592 6.592zm3.615-4.934c-.197-.099-1.17-.578-1.353-.646-.182-.065-.315-.099-.445.099-.133.197-.513.646-.627.775-.114.133-.232.148-.43.05-.197-.1-.836-.308-1.592-.985-.59-.525-.985-1.175-1.103-1.372-.114-.198-.011-.304.088-.403.087-.088.197-.232.296-.346.1-.114.133-.198.198-.33.065-.134.034-.248-.015-.347-.05-.099-.445-1.076-.612-1.47-.16-.389-.323-.335-.445-.34-.114-.007-.247-.007-.38-.007a.729.729 0 0 0-.529.247c-.182.198-.691.677-.691 1.654 0 .977.71 1.916.81 2.049.098.133 1.394 2.132 3.383 2.992.47.205.84.326 1.129.418.475.152.904.129 1.246.08.38-.058 1.171-.48 1.338-.943.164-.464.164-.86.114-.943-.049-.084-.182-.133-.38-.232z" />
-                    </svg></a></li>
-                <li class="list-unstyled text-white d-inline-block px-2"><a href="javascript:void(0)"><svg
-                      xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="white" class="bi bi-instagram"
-                      viewBox="0 0 16 16">
-                      <path
-                        d="M8 0C5.829 0 5.556.01 4.703.048 3.85.088 3.269.222 2.76.42a3.917 3.917 0 0 0-1.417.923A3.927 3.927 0 0 0 .42 2.76C.222 3.268.087 3.85.048 4.7.01 5.555 0 5.827 0 8.001c0 2.172.01 2.444.048 3.297.04.852.174 1.433.372 1.942.205.526.478.972.923 1.417.444.445.89.719 1.416.923.51.198 1.09.333 1.942.372C5.555 15.99 5.827 16 8 16s2.444-.01 3.298-.048c.851-.04 1.434-.174 1.943-.372a3.916 3.916 0 0 0 1.416-.923c.445-.445.718-.891.923-1.417.197-.509.332-1.09.372-1.942C15.99 10.445 16 10.173 16 8s-.01-2.445-.048-3.299c-.04-.851-.175-1.433-.372-1.941a3.926 3.926 0 0 0-.923-1.417A3.911 3.911 0 0 0 13.24.42c-.51-.198-1.092-.333-1.943-.372C10.443.01 10.172 0 7.998 0h.003zm-.717 1.442h.718c2.136 0 2.389.007 3.232.046.78.035 1.204.166 1.486.275.373.145.64.319.92.599.28.28.453.546.598.92.11.281.24.705.275 1.485.039.843.047 1.096.047 3.231s-.008 2.389-.047 3.232c-.035.78-.166 1.203-.275 1.485a2.47 2.47 0 0 1-.599.919c-.28.28-.546.453-.92.598-.28.11-.704.24-1.485.276-.843.038-1.096.047-3.232.047s-2.39-.009-3.233-.047c-.78-.036-1.203-.166-1.485-.276a2.478 2.478 0 0 1-.92-.598 2.48 2.48 0 0 1-.6-.92c-.109-.281-.24-.705-.275-1.485-.038-.843-.046-1.096-.046-3.233 0-2.136.008-2.388.046-3.231.036-.78.166-1.204.276-1.486.145-.373.319-.64.599-.92.28-.28.546-.453.92-.598.282-.11.705-.24 1.485-.276.738-.034 1.024-.044 2.515-.045v.002zm4.988 1.328a.96.96 0 1 0 0 1.92.96.96 0 0 0 0-1.92zm-4.27 1.122a4.109 4.109 0 1 0 0 8.217 4.109 4.109 0 0 0 0-8.217zm0 1.441a2.667 2.667 0 1 1 0 5.334 2.667 2.667 0 0 1 0-5.334z" />
-                    </svg></a></li>
-                <li class="list-unstyled text-white d-inline-block px-2"><a href="javascript:void(0)"><svg
-                      xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="white" class="bi bi-linkedin"
-                      viewBox="0 0 16 16">
-                      <path
-                        d="M0 1.146C0 .513.526 0 1.175 0h13.65C15.474 0 16 .513 16 1.146v13.708c0 .633-.526 1.146-1.175 1.146H1.175C.526 16 0 15.487 0 14.854V1.146zm4.943 12.248V6.169H2.542v7.225h2.401zm-1.2-8.212c.837 0 1.358-.554 1.358-1.248-.015-.709-.52-1.248-1.342-1.248-.822 0-1.359.54-1.359 1.248 0 .694.521 1.248 1.327 1.248h.016zm4.908 8.212V9.359c0-.216.016-.432.08-.586.173-.431.568-.878 1.232-.878.869 0 1.216.662 1.216 1.634v3.865h2.401V9.25c0-2.22-1.184-3.252-2.764-3.252-1.274 0-1.845.7-2.165 1.193v.025h-.016a5.54 5.54 0 0 1 .016-.025V6.169h-2.4c.03.678 0 7.225 0 7.225h2.4z" />
-                    </svg></a></li>
+              <ul class="col-lg-6 m-0 text-white">
+                <li class="list-unstyled text-white d-inline-block px-2"><a href="javascript:void(0)"><i
+                      class="fa-solid fa-wifi text-white"></i></a></li>
+                <li class="list-unstyled text-white d-inline-block px-2"><a href="javascript:void(0)"><i
+                      class="fa-brands fa-facebook text-white "></i></a></li>
+                <li class="list-unstyled text-white d-inline-block px-2"><a href="javascript:void(0)"><i
+                      class="fa-brands fa-facebook-messenger text-white"></i></a></li>
+                <li class="list-unstyled text-white d-inline-block px-2"><a href="javascript:void(0)"><i
+                      class="fa-brands fa-whatsapp text-white"></i></a></li>
+                <li class="list-unstyled text-white d-inline-block px-2"><a href="javascript:void(0)"><i
+                      class="fa-brands fa-instagram text-white"></i></a></li>
+                <li class="list-unstyled text-white d-inline-block px-2"><a href="javascript:void(0)"><i
+                      class="fa-brands fa-linkedin text-white"></i></a></li>
               </ul>
               <div class="john col-lg-6 text-right">
                 <h4 class="font-s font-weight-bolder">Brooke Statham</h4>
@@ -361,101 +298,53 @@
               </div>
             </div>
             <div class="fig-img text-center">
-              <figure>
-                <img src="./image/self_cofidence.jpg" alt="person">
+              <figure class="mx-auto">
+                <img class="w-100" src="./image/self_cofidence.jpg" alt="person">
               </figure>
             </div>
           </div>
-          <div class="bio col-lg-4">
+          <div class="bio col-lg-4 col-md-6">
             <div class="top-bio row justify-content-between py-3">
-              <ul class="col-lg-6 m-0">
-                <li class="list-unstyled text-white d-inline-block px-2"><a href="javascript:void(0)"><svg
-                      xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="white" class="bi bi-rss-fill"
-                      viewBox="0 0 16 16">
-                      <path
-                        d="M2 0a2 2 0 0 0-2 2v12a2 2 0 0 0 2 2h12a2 2 0 0 0 2-2V2a2 2 0 0 0-2-2H2zm1.5 2.5c5.523 0 10 4.477 10 10a1 1 0 1 1-2 0 8 8 0 0 0-8-8 1 1 0 0 1 0-2zm0 4a6 6 0 0 1 6 6 1 1 0 1 1-2 0 4 4 0 0 0-4-4 1 1 0 0 1 0-2zm.5 7a1.5 1.5 0 1 1 0-3 1.5 1.5 0 0 1 0 3z" />
-                    </svg></a></li>
-                <li class="list-unstyled text-white d-inline-block px-2"><a href="javascript:void(0)"><svg
-                      xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="white" class="bi bi-facebook"
-                      viewBox="0 0 16 16">
-                      <path
-                        d="M16 8.049c0-4.446-3.582-8.05-8-8.05C3.58 0-.002 3.603-.002 8.05c0 4.017 2.926 7.347 6.75 7.951v-5.625h-2.03V8.05H6.75V6.275c0-2.017 1.195-3.131 3.022-3.131.876 0 1.791.157 1.791.157v1.98h-1.009c-.993 0-1.303.621-1.303 1.258v1.51h2.218l-.354 2.326H9.25V16c3.824-.604 6.75-3.934 6.75-7.951z" />
-                    </svg></a></li>
-                <li class="list-unstyled text-white d-inline-block px-2"><a href="javascript:void(0)"><svg
-                      xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="white" class="bi bi-messenger"
-                      viewBox="0 0 16 16">
-                      <path
-                        d="M0 7.76C0 3.301 3.493 0 8 0s8 3.301 8 7.76-3.493 7.76-8 7.76c-.81 0-1.586-.107-2.316-.307a.639.639 0 0 0-.427.03l-1.588.702a.64.64 0 0 1-.898-.566l-.044-1.423a.639.639 0 0 0-.215-.456C.956 12.108 0 10.092 0 7.76zm5.546-1.459-2.35 3.728c-.225.358.214.761.551.506l2.525-1.916a.48.48 0 0 1 .578-.002l1.869 1.402a1.2 1.2 0 0 0 1.735-.32l2.35-3.728c.226-.358-.214-.761-.551-.506L9.728 7.381a.48.48 0 0 1-.578.002L7.281 5.98a1.2 1.2 0 0 0-1.735.32z" />
-                    </svg></a></li>
-                <li class="list-unstyled text-white d-inline-block px-2"><a href="javascript:void(0)"><svg
-                      xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="white" class="bi bi-whatsapp"
-                      viewBox="0 0 16 16">
-                      <path
-                        d="M13.601 2.326A7.854 7.854 0 0 0 7.994 0C3.627 0 .068 3.558.064 7.926c0 1.399.366 2.76 1.057 3.965L0 16l4.204-1.102a7.933 7.933 0 0 0 3.79.965h.004c4.368 0 7.926-3.558 7.93-7.93A7.898 7.898 0 0 0 13.6 2.326zM7.994 14.521a6.573 6.573 0 0 1-3.356-.92l-.24-.144-2.494.654.666-2.433-.156-.251a6.56 6.56 0 0 1-1.007-3.505c0-3.626 2.957-6.584 6.591-6.584a6.56 6.56 0 0 1 4.66 1.931 6.557 6.557 0 0 1 1.928 4.66c-.004 3.639-2.961 6.592-6.592 6.592zm3.615-4.934c-.197-.099-1.17-.578-1.353-.646-.182-.065-.315-.099-.445.099-.133.197-.513.646-.627.775-.114.133-.232.148-.43.05-.197-.1-.836-.308-1.592-.985-.59-.525-.985-1.175-1.103-1.372-.114-.198-.011-.304.088-.403.087-.088.197-.232.296-.346.1-.114.133-.198.198-.33.065-.134.034-.248-.015-.347-.05-.099-.445-1.076-.612-1.47-.16-.389-.323-.335-.445-.34-.114-.007-.247-.007-.38-.007a.729.729 0 0 0-.529.247c-.182.198-.691.677-.691 1.654 0 .977.71 1.916.81 2.049.098.133 1.394 2.132 3.383 2.992.47.205.84.326 1.129.418.475.152.904.129 1.246.08.38-.058 1.171-.48 1.338-.943.164-.464.164-.86.114-.943-.049-.084-.182-.133-.38-.232z" />
-                    </svg></a></li>
-                <li class="list-unstyled text-white d-inline-block px-2"><a href="javascript:void(0)"><svg
-                      xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="white" class="bi bi-instagram"
-                      viewBox="0 0 16 16">
-                      <path
-                        d="M8 0C5.829 0 5.556.01 4.703.048 3.85.088 3.269.222 2.76.42a3.917 3.917 0 0 0-1.417.923A3.927 3.927 0 0 0 .42 2.76C.222 3.268.087 3.85.048 4.7.01 5.555 0 5.827 0 8.001c0 2.172.01 2.444.048 3.297.04.852.174 1.433.372 1.942.205.526.478.972.923 1.417.444.445.89.719 1.416.923.51.198 1.09.333 1.942.372C5.555 15.99 5.827 16 8 16s2.444-.01 3.298-.048c.851-.04 1.434-.174 1.943-.372a3.916 3.916 0 0 0 1.416-.923c.445-.445.718-.891.923-1.417.197-.509.332-1.09.372-1.942C15.99 10.445 16 10.173 16 8s-.01-2.445-.048-3.299c-.04-.851-.175-1.433-.372-1.941a3.926 3.926 0 0 0-.923-1.417A3.911 3.911 0 0 0 13.24.42c-.51-.198-1.092-.333-1.943-.372C10.443.01 10.172 0 7.998 0h.003zm-.717 1.442h.718c2.136 0 2.389.007 3.232.046.78.035 1.204.166 1.486.275.373.145.64.319.92.599.28.28.453.546.598.92.11.281.24.705.275 1.485.039.843.047 1.096.047 3.231s-.008 2.389-.047 3.232c-.035.78-.166 1.203-.275 1.485a2.47 2.47 0 0 1-.599.919c-.28.28-.546.453-.92.598-.28.11-.704.24-1.485.276-.843.038-1.096.047-3.232.047s-2.39-.009-3.233-.047c-.78-.036-1.203-.166-1.485-.276a2.478 2.478 0 0 1-.92-.598 2.48 2.48 0 0 1-.6-.92c-.109-.281-.24-.705-.275-1.485-.038-.843-.046-1.096-.046-3.233 0-2.136.008-2.388.046-3.231.036-.78.166-1.204.276-1.486.145-.373.319-.64.599-.92.28-.28.546-.453.92-.598.282-.11.705-.24 1.485-.276.738-.034 1.024-.044 2.515-.045v.002zm4.988 1.328a.96.96 0 1 0 0 1.92.96.96 0 0 0 0-1.92zm-4.27 1.122a4.109 4.109 0 1 0 0 8.217 4.109 4.109 0 0 0 0-8.217zm0 1.441a2.667 2.667 0 1 1 0 5.334 2.667 2.667 0 0 1 0-5.334z" />
-                    </svg></a></li>
-                <li class="list-unstyled text-white d-inline-block px-2"><a href="javascript:void(0)"><svg
-                      xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="white" class="bi bi-linkedin"
-                      viewBox="0 0 16 16">
-                      <path
-                        d="M0 1.146C0 .513.526 0 1.175 0h13.65C15.474 0 16 .513 16 1.146v13.708c0 .633-.526 1.146-1.175 1.146H1.175C.526 16 0 15.487 0 14.854V1.146zm4.943 12.248V6.169H2.542v7.225h2.401zm-1.2-8.212c.837 0 1.358-.554 1.358-1.248-.015-.709-.52-1.248-1.342-1.248-.822 0-1.359.54-1.359 1.248 0 .694.521 1.248 1.327 1.248h.016zm4.908 8.212V9.359c0-.216.016-.432.08-.586.173-.431.568-.878 1.232-.878.869 0 1.216.662 1.216 1.634v3.865h2.401V9.25c0-2.22-1.184-3.252-2.764-3.252-1.274 0-1.845.7-2.165 1.193v.025h-.016a5.54 5.54 0 0 1 .016-.025V6.169h-2.4c.03.678 0 7.225 0 7.225h2.4z" />
-                    </svg></a></li>
+              <ul class="col-lg-6 m-0 text-white">
+                <li class="list-unstyled text-white d-inline-block px-2"><a href="javascript:void(0)"><i
+                      class="fa-solid fa-wifi text-white"></i></a></li>
+                <li class="list-unstyled text-white d-inline-block px-2"><a href="javascript:void(0)"><i
+                      class="fa-brands fa-facebook text-white "></i></a></li>
+                <li class="list-unstyled text-white d-inline-block px-2"><a href="javascript:void(0)"><i
+                      class="fa-brands fa-facebook-messenger text-white"></i></a></li>
+                <li class="list-unstyled text-white d-inline-block px-2"><a href="javascript:void(0)"><i
+                      class="fa-brands fa-whatsapp text-white"></i></a></li>
+                <li class="list-unstyled text-white d-inline-block px-2"><a href="javascript:void(0)"><i
+                      class="fa-brands fa-instagram text-white"></i></a></li>
+                <li class="list-unstyled text-white d-inline-block px-2"><a href="javascript:void(0)"><i
+                      class="fa-brands fa-linkedin text-white"></i></a></li>
               </ul>
               <div class="john col-lg-6 text-right">
                 <h4 class="font-s font-weight-bolder">Loana Dereck</h4>
                 <span class="font-s">Developer</span>
               </div>
             </div>
-            <div class="fig-img text-center">
+            <div class="fig-img text-center mx-auto">
               <figure class="rounded-circle">
-                <img src="./image/Kayla-Person.jpg" alt="person">
+                <img class="w-100" src="./image/Kayla-Person.jpg" alt="person">
               </figure>
             </div>
           </div>
-          <div class="bio col-lg-4">
+          <div class="bio col-lg-4 col-md-6">
             <div class="top-bio row justify-content-between py-3">
-              <ul class="col-lg-6 m-0">
-                <li class="list-unstyled text-white d-inline-block px-2"><a href="javascript:void(0)"><svg
-                      xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="white" class="bi bi-rss-fill"
-                      viewBox="0 0 16 16">
-                      <path
-                        d="M2 0a2 2 0 0 0-2 2v12a2 2 0 0 0 2 2h12a2 2 0 0 0 2-2V2a2 2 0 0 0-2-2H2zm1.5 2.5c5.523 0 10 4.477 10 10a1 1 0 1 1-2 0 8 8 0 0 0-8-8 1 1 0 0 1 0-2zm0 4a6 6 0 0 1 6 6 1 1 0 1 1-2 0 4 4 0 0 0-4-4 1 1 0 0 1 0-2zm.5 7a1.5 1.5 0 1 1 0-3 1.5 1.5 0 0 1 0 3z" />
-                    </svg></a></li>
-                <li class="list-unstyled text-white d-inline-block px-2"><a href="javascript:void(0)"><svg
-                      xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="white" class="bi bi-facebook"
-                      viewBox="0 0 16 16">
-                      <path
-                        d="M16 8.049c0-4.446-3.582-8.05-8-8.05C3.58 0-.002 3.603-.002 8.05c0 4.017 2.926 7.347 6.75 7.951v-5.625h-2.03V8.05H6.75V6.275c0-2.017 1.195-3.131 3.022-3.131.876 0 1.791.157 1.791.157v1.98h-1.009c-.993 0-1.303.621-1.303 1.258v1.51h2.218l-.354 2.326H9.25V16c3.824-.604 6.75-3.934 6.75-7.951z" />
-                    </svg></a></li>
-                <li class="list-unstyled text-white d-inline-block px-2"><a href="javascript:void(0)"><svg
-                      xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="white" class="bi bi-messenger"
-                      viewBox="0 0 16 16">
-                      <path
-                        d="M0 7.76C0 3.301 3.493 0 8 0s8 3.301 8 7.76-3.493 7.76-8 7.76c-.81 0-1.586-.107-2.316-.307a.639.639 0 0 0-.427.03l-1.588.702a.64.64 0 0 1-.898-.566l-.044-1.423a.639.639 0 0 0-.215-.456C.956 12.108 0 10.092 0 7.76zm5.546-1.459-2.35 3.728c-.225.358.214.761.551.506l2.525-1.916a.48.48 0 0 1 .578-.002l1.869 1.402a1.2 1.2 0 0 0 1.735-.32l2.35-3.728c.226-.358-.214-.761-.551-.506L9.728 7.381a.48.48 0 0 1-.578.002L7.281 5.98a1.2 1.2 0 0 0-1.735.32z" />
-                    </svg></a></li>
-                <li class="list-unstyled text-white d-inline-block px-2"><a href="javascript:void(0)"><svg
-                      xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="white" class="bi bi-whatsapp"
-                      viewBox="0 0 16 16">
-                      <path
-                        d="M13.601 2.326A7.854 7.854 0 0 0 7.994 0C3.627 0 .068 3.558.064 7.926c0 1.399.366 2.76 1.057 3.965L0 16l4.204-1.102a7.933 7.933 0 0 0 3.79.965h.004c4.368 0 7.926-3.558 7.93-7.93A7.898 7.898 0 0 0 13.6 2.326zM7.994 14.521a6.573 6.573 0 0 1-3.356-.92l-.24-.144-2.494.654.666-2.433-.156-.251a6.56 6.56 0 0 1-1.007-3.505c0-3.626 2.957-6.584 6.591-6.584a6.56 6.56 0 0 1 4.66 1.931 6.557 6.557 0 0 1 1.928 4.66c-.004 3.639-2.961 6.592-6.592 6.592zm3.615-4.934c-.197-.099-1.17-.578-1.353-.646-.182-.065-.315-.099-.445.099-.133.197-.513.646-.627.775-.114.133-.232.148-.43.05-.197-.1-.836-.308-1.592-.985-.59-.525-.985-1.175-1.103-1.372-.114-.198-.011-.304.088-.403.087-.088.197-.232.296-.346.1-.114.133-.198.198-.33.065-.134.034-.248-.015-.347-.05-.099-.445-1.076-.612-1.47-.16-.389-.323-.335-.445-.34-.114-.007-.247-.007-.38-.007a.729.729 0 0 0-.529.247c-.182.198-.691.677-.691 1.654 0 .977.71 1.916.81 2.049.098.133 1.394 2.132 3.383 2.992.47.205.84.326 1.129.418.475.152.904.129 1.246.08.38-.058 1.171-.48 1.338-.943.164-.464.164-.86.114-.943-.049-.084-.182-.133-.38-.232z" />
-                    </svg></a></li>
-                <li class="list-unstyled text-white d-inline-block px-2"><a href="javascript:void(0)"><svg
-                      xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="white" class="bi bi-instagram"
-                      viewBox="0 0 16 16">
-                      <path
-                        d="M8 0C5.829 0 5.556.01 4.703.048 3.85.088 3.269.222 2.76.42a3.917 3.917 0 0 0-1.417.923A3.927 3.927 0 0 0 .42 2.76C.222 3.268.087 3.85.048 4.7.01 5.555 0 5.827 0 8.001c0 2.172.01 2.444.048 3.297.04.852.174 1.433.372 1.942.205.526.478.972.923 1.417.444.445.89.719 1.416.923.51.198 1.09.333 1.942.372C5.555 15.99 5.827 16 8 16s2.444-.01 3.298-.048c.851-.04 1.434-.174 1.943-.372a3.916 3.916 0 0 0 1.416-.923c.445-.445.718-.891.923-1.417.197-.509.332-1.09.372-1.942C15.99 10.445 16 10.173 16 8s-.01-2.445-.048-3.299c-.04-.851-.175-1.433-.372-1.941a3.926 3.926 0 0 0-.923-1.417A3.911 3.911 0 0 0 13.24.42c-.51-.198-1.092-.333-1.943-.372C10.443.01 10.172 0 7.998 0h.003zm-.717 1.442h.718c2.136 0 2.389.007 3.232.046.78.035 1.204.166 1.486.275.373.145.64.319.92.599.28.28.453.546.598.92.11.281.24.705.275 1.485.039.843.047 1.096.047 3.231s-.008 2.389-.047 3.232c-.035.78-.166 1.203-.275 1.485a2.47 2.47 0 0 1-.599.919c-.28.28-.546.453-.92.598-.28.11-.704.24-1.485.276-.843.038-1.096.047-3.232.047s-2.39-.009-3.233-.047c-.78-.036-1.203-.166-1.485-.276a2.478 2.478 0 0 1-.92-.598 2.48 2.48 0 0 1-.6-.92c-.109-.281-.24-.705-.275-1.485-.038-.843-.046-1.096-.046-3.233 0-2.136.008-2.388.046-3.231.036-.78.166-1.204.276-1.486.145-.373.319-.64.599-.92.28-.28.546-.453.92-.598.282-.11.705-.24 1.485-.276.738-.034 1.024-.044 2.515-.045v.002zm4.988 1.328a.96.96 0 1 0 0 1.92.96.96 0 0 0 0-1.92zm-4.27 1.122a4.109 4.109 0 1 0 0 8.217 4.109 4.109 0 0 0 0-8.217zm0 1.441a2.667 2.667 0 1 1 0 5.334 2.667 2.667 0 0 1 0-5.334z" />
-                    </svg></a></li>
-                <li class="list-unstyled text-white d-inline-block px-2"><a href="javascript:void(0)"><svg
-                      xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="white" class="bi bi-linkedin"
-                      viewBox="0 0 16 16">
-                      <path
-                        d="M0 1.146C0 .513.526 0 1.175 0h13.65C15.474 0 16 .513 16 1.146v13.708c0 .633-.526 1.146-1.175 1.146H1.175C.526 16 0 15.487 0 14.854V1.146zm4.943 12.248V6.169H2.542v7.225h2.401zm-1.2-8.212c.837 0 1.358-.554 1.358-1.248-.015-.709-.52-1.248-1.342-1.248-.822 0-1.359.54-1.359 1.248 0 .694.521 1.248 1.327 1.248h.016zm4.908 8.212V9.359c0-.216.016-.432.08-.586.173-.431.568-.878 1.232-.878.869 0 1.216.662 1.216 1.634v3.865h2.401V9.25c0-2.22-1.184-3.252-2.764-3.252-1.274 0-1.845.7-2.165 1.193v.025h-.016a5.54 5.54 0 0 1 .016-.025V6.169h-2.4c.03.678 0 7.225 0 7.225h2.4z" />
-                    </svg></a></li>
+              <ul class="col-lg-6 m-0 text-white">
+                <li class="list-unstyled text-white d-inline-block px-2"><a href="javascript:void(0)"><i
+                      class="fa-solid fa-wifi text-white"></i></a></li>
+                <li class="list-unstyled text-white d-inline-block px-2"><a href="javascript:void(0)"><i
+                      class="fa-brands fa-facebook text-white "></i></a></li>
+                <li class="list-unstyled text-white d-inline-block px-2"><a href="javascript:void(0)"><i
+                      class="fa-brands fa-facebook-messenger text-white"></i></a></li>
+                <li class="list-unstyled text-white d-inline-block px-2"><a href="javascript:void(0)"><i
+                      class="fa-brands fa-whatsapp text-white"></i></a></li>
+                <li class="list-unstyled text-white d-inline-block px-2"><a href="javascript:void(0)"><i
+                      class="fa-brands fa-instagram text-white"></i></a></li>
+                <li class="list-unstyled text-white d-inline-block px-2"><a href="javascript:void(0)"><i
+                      class="fa-brands fa-linkedin text-white"></i></a></li>
               </ul>
               <div class="john col-lg-6 text-right">
                 <h4 class="font-s font-weight-bolder">John Mavrick</h4>
@@ -463,50 +352,26 @@
               </div>
             </div>
             <div class="fig-img text-center">
-              <figure class="rounded-circle">
-                <img src="./image/4500.jpg" alt="person">
+              <figure class="rounded-circle mx-auto">
+                <img class="w-100" src="./image/4500.jpg" alt="person">
               </figure>
             </div>
           </div>
-          <div class="bio col-lg-4">
+          <div class="bio col-lg-4 col-md-6">
             <div class="top-bio row justify-content-between py-3">
-              <ul class="col-lg-6 m-0">
-                <li class="list-unstyled text-white d-inline-block px-2"><a href="javascript:void(0)"><svg
-                      xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="white" class="bi bi-rss-fill"
-                      viewBox="0 0 16 16">
-                      <path
-                        d="M2 0a2 2 0 0 0-2 2v12a2 2 0 0 0 2 2h12a2 2 0 0 0 2-2V2a2 2 0 0 0-2-2H2zm1.5 2.5c5.523 0 10 4.477 10 10a1 1 0 1 1-2 0 8 8 0 0 0-8-8 1 1 0 0 1 0-2zm0 4a6 6 0 0 1 6 6 1 1 0 1 1-2 0 4 4 0 0 0-4-4 1 1 0 0 1 0-2zm.5 7a1.5 1.5 0 1 1 0-3 1.5 1.5 0 0 1 0 3z" />
-                    </svg></a></li>
-                <li class="list-unstyled text-white d-inline-block px-2"><a href="javascript:void(0)"><svg
-                      xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="white" class="bi bi-facebook"
-                      viewBox="0 0 16 16">
-                      <path
-                        d="M16 8.049c0-4.446-3.582-8.05-8-8.05C3.58 0-.002 3.603-.002 8.05c0 4.017 2.926 7.347 6.75 7.951v-5.625h-2.03V8.05H6.75V6.275c0-2.017 1.195-3.131 3.022-3.131.876 0 1.791.157 1.791.157v1.98h-1.009c-.993 0-1.303.621-1.303 1.258v1.51h2.218l-.354 2.326H9.25V16c3.824-.604 6.75-3.934 6.75-7.951z" />
-                    </svg></a></li>
-                <li class="list-unstyled text-white d-inline-block px-2"><a href="javascript:void(0)"><svg
-                      xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="white" class="bi bi-messenger"
-                      viewBox="0 0 16 16">
-                      <path
-                        d="M0 7.76C0 3.301 3.493 0 8 0s8 3.301 8 7.76-3.493 7.76-8 7.76c-.81 0-1.586-.107-2.316-.307a.639.639 0 0 0-.427.03l-1.588.702a.64.64 0 0 1-.898-.566l-.044-1.423a.639.639 0 0 0-.215-.456C.956 12.108 0 10.092 0 7.76zm5.546-1.459-2.35 3.728c-.225.358.214.761.551.506l2.525-1.916a.48.48 0 0 1 .578-.002l1.869 1.402a1.2 1.2 0 0 0 1.735-.32l2.35-3.728c.226-.358-.214-.761-.551-.506L9.728 7.381a.48.48 0 0 1-.578.002L7.281 5.98a1.2 1.2 0 0 0-1.735.32z" />
-                    </svg></a></li>
-                <li class="list-unstyled text-white d-inline-block px-2"><a href="javascript:void(0)"><svg
-                      xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="white" class="bi bi-whatsapp"
-                      viewBox="0 0 16 16">
-                      <path
-                        d="M13.601 2.326A7.854 7.854 0 0 0 7.994 0C3.627 0 .068 3.558.064 7.926c0 1.399.366 2.76 1.057 3.965L0 16l4.204-1.102a7.933 7.933 0 0 0 3.79.965h.004c4.368 0 7.926-3.558 7.93-7.93A7.898 7.898 0 0 0 13.6 2.326zM7.994 14.521a6.573 6.573 0 0 1-3.356-.92l-.24-.144-2.494.654.666-2.433-.156-.251a6.56 6.56 0 0 1-1.007-3.505c0-3.626 2.957-6.584 6.591-6.584a6.56 6.56 0 0 1 4.66 1.931 6.557 6.557 0 0 1 1.928 4.66c-.004 3.639-2.961 6.592-6.592 6.592zm3.615-4.934c-.197-.099-1.17-.578-1.353-.646-.182-.065-.315-.099-.445.099-.133.197-.513.646-.627.775-.114.133-.232.148-.43.05-.197-.1-.836-.308-1.592-.985-.59-.525-.985-1.175-1.103-1.372-.114-.198-.011-.304.088-.403.087-.088.197-.232.296-.346.1-.114.133-.198.198-.33.065-.134.034-.248-.015-.347-.05-.099-.445-1.076-.612-1.47-.16-.389-.323-.335-.445-.34-.114-.007-.247-.007-.38-.007a.729.729 0 0 0-.529.247c-.182.198-.691.677-.691 1.654 0 .977.71 1.916.81 2.049.098.133 1.394 2.132 3.383 2.992.47.205.84.326 1.129.418.475.152.904.129 1.246.08.38-.058 1.171-.48 1.338-.943.164-.464.164-.86.114-.943-.049-.084-.182-.133-.38-.232z" />
-                    </svg></a></li>
-                <li class="list-unstyled text-white d-inline-block px-2"><a href="javascript:void(0)"><svg
-                      xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="white" class="bi bi-instagram"
-                      viewBox="0 0 16 16">
-                      <path
-                        d="M8 0C5.829 0 5.556.01 4.703.048 3.85.088 3.269.222 2.76.42a3.917 3.917 0 0 0-1.417.923A3.927 3.927 0 0 0 .42 2.76C.222 3.268.087 3.85.048 4.7.01 5.555 0 5.827 0 8.001c0 2.172.01 2.444.048 3.297.04.852.174 1.433.372 1.942.205.526.478.972.923 1.417.444.445.89.719 1.416.923.51.198 1.09.333 1.942.372C5.555 15.99 5.827 16 8 16s2.444-.01 3.298-.048c.851-.04 1.434-.174 1.943-.372a3.916 3.916 0 0 0 1.416-.923c.445-.445.718-.891.923-1.417.197-.509.332-1.09.372-1.942C15.99 10.445 16 10.173 16 8s-.01-2.445-.048-3.299c-.04-.851-.175-1.433-.372-1.941a3.926 3.926 0 0 0-.923-1.417A3.911 3.911 0 0 0 13.24.42c-.51-.198-1.092-.333-1.943-.372C10.443.01 10.172 0 7.998 0h.003zm-.717 1.442h.718c2.136 0 2.389.007 3.232.046.78.035 1.204.166 1.486.275.373.145.64.319.92.599.28.28.453.546.598.92.11.281.24.705.275 1.485.039.843.047 1.096.047 3.231s-.008 2.389-.047 3.232c-.035.78-.166 1.203-.275 1.485a2.47 2.47 0 0 1-.599.919c-.28.28-.546.453-.92.598-.28.11-.704.24-1.485.276-.843.038-1.096.047-3.232.047s-2.39-.009-3.233-.047c-.78-.036-1.203-.166-1.485-.276a2.478 2.478 0 0 1-.92-.598 2.48 2.48 0 0 1-.6-.92c-.109-.281-.24-.705-.275-1.485-.038-.843-.046-1.096-.046-3.233 0-2.136.008-2.388.046-3.231.036-.78.166-1.204.276-1.486.145-.373.319-.64.599-.92.28-.28.546-.453.92-.598.282-.11.705-.24 1.485-.276.738-.034 1.024-.044 2.515-.045v.002zm4.988 1.328a.96.96 0 1 0 0 1.92.96.96 0 0 0 0-1.92zm-4.27 1.122a4.109 4.109 0 1 0 0 8.217 4.109 4.109 0 0 0 0-8.217zm0 1.441a2.667 2.667 0 1 1 0 5.334 2.667 2.667 0 0 1 0-5.334z" />
-                    </svg></a></li>
-                <li class="list-unstyled text-white d-inline-block px-2"><a href="javascript:void(0)"><svg
-                      xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="white" class="bi bi-linkedin"
-                      viewBox="0 0 16 16">
-                      <path
-                        d="M0 1.146C0 .513.526 0 1.175 0h13.65C15.474 0 16 .513 16 1.146v13.708c0 .633-.526 1.146-1.175 1.146H1.175C.526 16 0 15.487 0 14.854V1.146zm4.943 12.248V6.169H2.542v7.225h2.401zm-1.2-8.212c.837 0 1.358-.554 1.358-1.248-.015-.709-.52-1.248-1.342-1.248-.822 0-1.359.54-1.359 1.248 0 .694.521 1.248 1.327 1.248h.016zm4.908 8.212V9.359c0-.216.016-.432.08-.586.173-.431.568-.878 1.232-.878.869 0 1.216.662 1.216 1.634v3.865h2.401V9.25c0-2.22-1.184-3.252-2.764-3.252-1.274 0-1.845.7-2.165 1.193v.025h-.016a5.54 5.54 0 0 1 .016-.025V6.169h-2.4c.03.678 0 7.225 0 7.225h2.4z" />
-                    </svg></a></li>
+              <ul class="col-lg-6 m-0 text-white">
+                <li class="list-unstyled text-white d-inline-block px-2"><a href="javascript:void(0)"><i
+                      class="fa-solid fa-wifi text-white"></i></a></li>
+                <li class="list-unstyled text-white d-inline-block px-2"><a href="javascript:void(0)"><i
+                      class="fa-brands fa-facebook text-white "></i></a></li>
+                <li class="list-unstyled text-white d-inline-block px-2"><a href="javascript:void(0)"><i
+                      class="fa-brands fa-facebook-messenger text-white"></i></a></li>
+                <li class="list-unstyled text-white d-inline-block px-2"><a href="javascript:void(0)"><i
+                      class="fa-brands fa-whatsapp text-white"></i></a></li>
+                <li class="list-unstyled text-white d-inline-block px-2"><a href="javascript:void(0)"><i
+                      class="fa-brands fa-instagram text-white"></i></a></li>
+                <li class="list-unstyled text-white d-inline-block px-2"><a href="javascript:void(0)"><i
+                      class="fa-brands fa-linkedin text-white"></i></a></li>
               </ul>
               <div class="john col-lg-6 text-right">
                 <h4 class="font-s font-weight-bolder">John Mavrick</h4>
@@ -514,8 +379,8 @@
               </div>
             </div>
             <div class="fig-img text-center">
-              <figure class="rounded-circle">
-                <img src="./image/07econ-briefing-musk-mediumSquareAt3X.jpg" alt="person">
+              <figure class="rounded-circle mx-auto">
+                <img class="w-100" src="./image/07econ-briefing-musk-mediumSquareAt3X.jpg" alt="person">
               </figure>
             </div>
           </div>
@@ -527,16 +392,21 @@
       <div class="container">
         <h2 class="head-b text-center font-weight-bold">Partners</h2>
         <div class="oscar row justify-content-between">
-          <figure class="col-lg-2"><img src="./image/WqYKA.png" alt="gray-logo"></figure>
-          <figure class="col-lg-2"><img src="./image/deshpande-skilling-gray.png" alt="gray-logo"></figure>
-          <figure class="col-lg-2"><img src="./image/logo-youtube-png-branco-4.png" alt="gray-logo"></figure>
-          <figure class="col-lg-2"><img src="./image/samsung.png" alt="gray-logo"></figure>
-          <figure class="col-lg-2"><img src="./image/graymn.png" alt="gray-logo"></figure>
+          <figure class="col-lg-2 col-md-6 col-sm-6 my-3"><img class="w-100" src="./image/WqYKA.png" alt="gray-logo">
+          </figure>
+          <figure class="col-lg-2 col-md-6 col-sm-6 my-3"><img class="w-100" src="./image/deshpande-skilling-gray.png"
+              alt="gray-logo"></figure>
+          <figure class="col-lg-2 col-md-6 col-sm-6 my-3"><img class="w-100" src="./image/logo-youtube-png-branco-4.png"
+              alt="gray-logo"></figure>
+          <figure class="col-lg-2 col-md-6 col-sm-6 my-3"><img class="w-100" src="./image/samsung.png" alt="gray-logo">
+          </figure>
+          <figure class="col-lg-2 col-md-6 col-sm-6 my-3"><img class="w-100" src="./image/graymn.png" alt="gray-logo">
+          </figure>
         </div>
       </div>
     </section>
     <!-- section distrip start here -->
-    <section class="distrip sec-p">
+    <section class="distrip py-6">
       <div class="container">
         <h2 class="text-center head-b font-weight-bold">Faq & Token Distrib.</h2>
         <div class="row text-center">
@@ -678,7 +548,7 @@
       </div>
     </section>
     <!-- stay by us section start here -->
-    <section class="stay sec-p">
+    <section class="stay py-6">
       <h2 class="head-b text-center">Stay by Us</h2>
       <div class="container">
         <form>
@@ -710,10 +580,9 @@
         </div>
         <div class="email col-lg-6">
           <form>
-            <fieldset class="rounded-pill d-flex bg-white" >
+            <fieldset class="rounded-pill d-flex bg-white">
               <input class="py-3 px-4  border-0" type="text" placeholder="Drop your e-mail address here">
-              <button type="button"
-                class="btn  btn-bg px-4 py-3 font-s">SUBSCRIBE</button>
+              <button type="button" class="btn  btn-bg px-4 py-3 font-s rounded-pill border">SUBSCRIBE</button>
             </fieldset>
           </form>
         </div>
@@ -729,73 +598,52 @@
             necessitatibus provident voluptas molestiae ;)</p>
           <ul>
             <li class="list-unstyled bg-white d-inline-block mr-2">
-              <a href="javascript:void(0)"><svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="blue"
-                  class="bi bi-facebook" viewBox="0 0 16 16">
-                  <path
-                    d="M16 8.049c0-4.446-3.582-8.05-8-8.05C3.58 0-.002 3.603-.002 8.05c0 4.017 2.926 7.347 6.75 7.951v-5.625h-2.03V8.05H6.75V6.275c0-2.017 1.195-3.131 3.022-3.131.876 0 1.791.157 1.791.157v1.98h-1.009c-.993 0-1.303.621-1.303 1.258v1.51h2.218l-.354 2.326H9.25V16c3.824-.604 6.75-3.934 6.75-7.951z" />
-                </svg></a>
+              <a href="javascript:void(0)"><i class="fa-brands fa-facebook"></i></a>
             </li>
             <li class="list-unstyled bg-white d-inline-block mr-2">
-              <a href="javascript:void(0)"><svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="blue"
-                  class="bi bi-messenger" viewBox="0 0 16 16">
-                  <path
-                    d="M0 7.76C0 3.301 3.493 0 8 0s8 3.301 8 7.76-3.493 7.76-8 7.76c-.81 0-1.586-.107-2.316-.307a.639.639 0 0 0-.427.03l-1.588.702a.64.64 0 0 1-.898-.566l-.044-1.423a.639.639 0 0 0-.215-.456C.956 12.108 0 10.092 0 7.76zm5.546-1.459-2.35 3.728c-.225.358.214.761.551.506l2.525-1.916a.48.48 0 0 1 .578-.002l1.869 1.402a1.2 1.2 0 0 0 1.735-.32l2.35-3.728c.226-.358-.214-.761-.551-.506L9.728 7.381a.48.48 0 0 1-.578.002L7.281 5.98a1.2 1.2 0 0 0-1.735.32z" />
-                </svg></a>
+              <a href="javascript:void(0)"><i class="fa-brands fa-facebook-messenger"></i></a>
             </li>
             <li class="list-unstyled bg-white d-inline-block mr-2">
-              <a href="javascript:void(0)"><svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="blue"
-                  class="bi bi-whatsapp" viewBox="0 0 16 16">
-                  <path
-                    d="M13.601 2.326A7.854 7.854 0 0 0 7.994 0C3.627 0 .068 3.558.064 7.926c0 1.399.366 2.76 1.057 3.965L0 16l4.204-1.102a7.933 7.933 0 0 0 3.79.965h.004c4.368 0 7.926-3.558 7.93-7.93A7.898 7.898 0 0 0 13.6 2.326zM7.994 14.521a6.573 6.573 0 0 1-3.356-.92l-.24-.144-2.494.654.666-2.433-.156-.251a6.56 6.56 0 0 1-1.007-3.505c0-3.626 2.957-6.584 6.591-6.584a6.56 6.56 0 0 1 4.66 1.931 6.557 6.557 0 0 1 1.928 4.66c-.004 3.639-2.961 6.592-6.592 6.592zm3.615-4.934c-.197-.099-1.17-.578-1.353-.646-.182-.065-.315-.099-.445.099-.133.197-.513.646-.627.775-.114.133-.232.148-.43.05-.197-.1-.836-.308-1.592-.985-.59-.525-.985-1.175-1.103-1.372-.114-.198-.011-.304.088-.403.087-.088.197-.232.296-.346.1-.114.133-.198.198-.33.065-.134.034-.248-.015-.347-.05-.099-.445-1.076-.612-1.47-.16-.389-.323-.335-.445-.34-.114-.007-.247-.007-.38-.007a.729.729 0 0 0-.529.247c-.182.198-.691.677-.691 1.654 0 .977.71 1.916.81 2.049.098.133 1.394 2.132 3.383 2.992.47.205.84.326 1.129.418.475.152.904.129 1.246.08.38-.058 1.171-.48 1.338-.943.164-.464.164-.86.114-.943-.049-.084-.182-.133-.38-.232z" />
-                </svg></a>
+              <a href="javascript:void(0)"><i class="fa-brands fa-whatsapp"></i></a>
             </li>
             <li class="list-unstyled bg-white d-inline-block mr-2">
-              <a href="javascript:void(0)"><svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="blue"
-                  class="bi bi-instagram" viewBox="0 0 16 16">
-                  <path
-                    d="M8 0C5.829 0 5.556.01 4.703.048 3.85.088 3.269.222 2.76.42a3.917 3.917 0 0 0-1.417.923A3.927 3.927 0 0 0 .42 2.76C.222 3.268.087 3.85.048 4.7.01 5.555 0 5.827 0 8.001c0 2.172.01 2.444.048 3.297.04.852.174 1.433.372 1.942.205.526.478.972.923 1.417.444.445.89.719 1.416.923.51.198 1.09.333 1.942.372C5.555 15.99 5.827 16 8 16s2.444-.01 3.298-.048c.851-.04 1.434-.174 1.943-.372a3.916 3.916 0 0 0 1.416-.923c.445-.445.718-.891.923-1.417.197-.509.332-1.09.372-1.942C15.99 10.445 16 10.173 16 8s-.01-2.445-.048-3.299c-.04-.851-.175-1.433-.372-1.941a3.926 3.926 0 0 0-.923-1.417A3.911 3.911 0 0 0 13.24.42c-.51-.198-1.092-.333-1.943-.372C10.443.01 10.172 0 7.998 0h.003zm-.717 1.442h.718c2.136 0 2.389.007 3.232.046.78.035 1.204.166 1.486.275.373.145.64.319.92.599.28.28.453.546.598.92.11.281.24.705.275 1.485.039.843.047 1.096.047 3.231s-.008 2.389-.047 3.232c-.035.78-.166 1.203-.275 1.485a2.47 2.47 0 0 1-.599.919c-.28.28-.546.453-.92.598-.28.11-.704.24-1.485.276-.843.038-1.096.047-3.232.047s-2.39-.009-3.233-.047c-.78-.036-1.203-.166-1.485-.276a2.478 2.478 0 0 1-.92-.598 2.48 2.48 0 0 1-.6-.92c-.109-.281-.24-.705-.275-1.485-.038-.843-.046-1.096-.046-3.233 0-2.136.008-2.388.046-3.231.036-.78.166-1.204.276-1.486.145-.373.319-.64.599-.92.28-.28.546-.453.92-.598.282-.11.705-.24 1.485-.276.738-.034 1.024-.044 2.515-.045v.002zm4.988 1.328a.96.96 0 1 0 0 1.92.96.96 0 0 0 0-1.92zm-4.27 1.122a4.109 4.109 0 1 0 0 8.217 4.109 4.109 0 0 0 0-8.217zm0 1.441a2.667 2.667 0 1 1 0 5.334 2.667 2.667 0 0 1 0-5.334z" />
-                </svg></a>
+              <a href="javascript:void(0)"><i class="fa-brands fa-instagram"></i></a>
             </li>
           </ul>
         </div>
         <div class="useful col-lg-2">
           <h5 class="mb-4">Useful Links</h5>
           <ul class="">
-            <li><a class="text-decoration-none text-white" href="javascript:void(0)"> About</a></li>
-            <li><a class="text-decoration-none text-white" href="javascript:void(0)">Services</a></li>
-            <li><a class="text-decoration-none text-white" href="javascript:void(0)">Blog</a></li>
-            <li><a class="text-decoration-none text-white" href="javascript:void(0)">Contact</a></li>
-            <li><a class="text-decoration-none text-white" href="javascript:void(0)">How to work with us?</a></li>
+            <li class="list-unstyled"><a class="text-decoration-none text-white" href="javascript:void(0)"> About</a>
+            </li>
+            <li class="list-unstyled"><a class="text-decoration-none text-white" href="javascript:void(0)">Services</a>
+            </li>
+            <li class="list-unstyled"><a class="text-decoration-none text-white" href="javascript:void(0)">Blog</a></li>
+            <li class="list-unstyled"><a class="text-decoration-none text-white" href="javascript:void(0)">Contact</a>
+            </li>
+            <li class="list-unstyled"><a class="text-decoration-none text-white" href="javascript:void(0)">How to work
+                with us?</a></li>
           </ul>
         </div>
         <div class="useful col-lg-2 font-s">
           <h5 class="mb-4">Letest Blog Posts</h5>
           <ul>
-            <li><a class="text-decoration-none text-white" href="javascript:void(0)">We know YOU are our clint?<br>Jan
+            <li class="list-unstyled"><a class="text-decoration-none text-white" href="javascript:void(0)">We know YOU
+                are our clint?<br>Jan
                 2018</a></li>
-            <li><a class="text-decoration-none text-white" href="javascript:void(0)">How to make owsome design.<br>Feb
+            <li class="list-unstyled"><a class="text-decoration-none text-white" href="javascript:void(0)">How to make
+                owsome design.<br>Feb
                 2018</a></li>
           </ul>
         </div>
         <div class="rich col-lg-3 font-s">
           <h5 class="mb-4">How to Rich us</h5>
-          <li class="list-unstyled py-1"><a class="text-decoration-none text-white" href="javascript:void(0)"><svg
-                xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-geo-alt-fill"
-                viewBox="0 0 16 16">
-                <path d="M8 16s6-5.686 6-10A6 6 0 0 0 2 6c0 4.314 6 10 6 10zm0-7a3 3 0 1 1 0-6 3 3 0 0 1 0 6z" />
-              </svg> Regal Street, 402, London; ZIP: 50263</a></li>
-          <li class="list-unstyled py-1"><a class="text-decoration-none text-white" href="javascript:void(0)"><svg
-                xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-messenger"
-                viewBox="0 0 16 16">
-                <path
-                  d="M0 7.76C0 3.301 3.493 0 8 0s8 3.301 8 7.76-3.493 7.76-8 7.76c-.81 0-1.586-.107-2.316-.307a.639.639 0 0 0-.427.03l-1.588.702a.64.64 0 0 1-.898-.566l-.044-1.423a.639.639 0 0 0-.215-.456C.956 12.108 0 10.092 0 7.76zm5.546-1.459-2.35 3.728c-.225.358.214.761.551.506l2.525-1.916a.48.48 0 0 1 .578-.002l1.869 1.402a1.2 1.2 0 0 0 1.735-.32l2.35-3.728c.226-.358-.214-.761-.551-.506L9.728 7.381a.48.48 0 0 1-.578.002L7.281 5.98a1.2 1.2 0 0 0-1.735.32z" />
-              </svg> ElegaTemplate</a></li>
-          <li class="list-unstyled py-1"><a class="text-decoration-none text-white" href="javascript:void(0)"><svg
-                xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-instagram"
-                viewBox="0 0 16 16">
-                <path
-                  d="M8 0C5.829 0 5.556.01 4.703.048 3.85.088 3.269.222 2.76.42a3.917 3.917 0 0 0-1.417.923A3.927 3.927 0 0 0 .42 2.76C.222 3.268.087 3.85.048 4.7.01 5.555 0 5.827 0 8.001c0 2.172.01 2.444.048 3.297.04.852.174 1.433.372 1.942.205.526.478.972.923 1.417.444.445.89.719 1.416.923.51.198 1.09.333 1.942.372C5.555 15.99 5.827 16 8 16s2.444-.01 3.298-.048c.851-.04 1.434-.174 1.943-.372a3.916 3.916 0 0 0 1.416-.923c.445-.445.718-.891.923-1.417.197-.509.332-1.09.372-1.942C15.99 10.445 16 10.173 16 8s-.01-2.445-.048-3.299c-.04-.851-.175-1.433-.372-1.941a3.926 3.926 0 0 0-.923-1.417A3.911 3.911 0 0 0 13.24.42c-.51-.198-1.092-.333-1.943-.372C10.443.01 10.172 0 7.998 0h.003zm-.717 1.442h.718c2.136 0 2.389.007 3.232.046.78.035 1.204.166 1.486.275.373.145.64.319.92.599.28.28.453.546.598.92.11.281.24.705.275 1.485.039.843.047 1.096.047 3.231s-.008 2.389-.047 3.232c-.035.78-.166 1.203-.275 1.485a2.47 2.47 0 0 1-.599.919c-.28.28-.546.453-.92.598-.28.11-.704.24-1.485.276-.843.038-1.096.047-3.232.047s-2.39-.009-3.233-.047c-.78-.036-1.203-.166-1.485-.276a2.478 2.478 0 0 1-.92-.598 2.48 2.48 0 0 1-.6-.92c-.109-.281-.24-.705-.275-1.485-.038-.843-.046-1.096-.046-3.233 0-2.136.008-2.388.046-3.231.036-.78.166-1.204.276-1.486.145-.373.319-.64.599-.92.28-.28.546-.453.92-.598.282-.11.705-.24 1.485-.276.738-.034 1.024-.044 2.515-.045v.002zm4.988 1.328a.96.96 0 1 0 0 1.92.96.96 0 0 0 0-1.92zm-4.27 1.122a4.109 4.109 0 1 0 0 8.217 4.109 4.109 0 0 0 0-8.217zm0 1.441a2.667 2.667 0 1 1 0 5.334 2.667 2.667 0 0 1 0-5.334z" />
-              </svg> @ElegaTemplate</a></li>
+          <li class="list-unstyled py-1"><a class="text-decoration-none text-white" href="javascript:void(0)"><i
+                class="fa-solid fa-location-dot"></i> Regal Street, 402, London; ZIP: 50263</a></li>
+          <li class="list-unstyled py-1"><a class="text-decoration-none text-white" href="javascript:void(0)"><i
+                class="fa-brands fa-facebook-messenger"></i> ElegaTemplate</a></li>
+          <li class="list-unstyled py-1"><a class="text-decoration-none text-white" href="javascript:void(0)"><i
+                class="fa-brands fa-instagram"></i> @ElegaTemplate</a></li>
         </div>
       </div>
       <!-- status div start here -->

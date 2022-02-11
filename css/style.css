@@ -10,110 +10,98 @@ body{
     background: #4834d3;
     color: white;
 }
-h1{
+h1 {
     font-size: 48px;
 }
-h2{
+h2 {
     font-size: 40px;
 }
-h3{
+h3 {
     font-size: 26px;
 }
 h4 {
     font-size: 22px;
 }
-h5{
+h5 {
     font-size: 20px;
 }
-h6{
+h6 {
     font-size: 18px;
 }
 
-.btn-bg{
+.btn-bg {
     background-image: linear-gradient(to bottom right, #8573fd, rgb(39, 6, 158));
 }
 
-.font-s{
+.font-s {
     font-size: 14px;
 }
 
-.sec-p{
+.py-6 {
     padding: 100px 0;
 }
 
-.py-6{
-    padding: 100px 0;
-}
-
-.mb-6{
+.mb-6 {
     margin-bottom: 50px;
 }
 
-.head-b{
+.head-b {
     margin-bottom: 50px;
 }
 
 /* section css start here */
 
-header{
-    background: #4834d3;
+header {
+    background: rgb(72, 52, 211);
 }
-header .logo{
-    width: 100%;
+header .logo {
     text-align: center;
-}
-
-header .navbar .navbar-nav{
-    width: 100%;
 }
 
 /* hero css start here */
 
-.hero{
-    background-image: url(../image/self_cofidence.jpg);
+.hero {
+    background: rgb(72, 52, 211) url(../image/skyimg.jpg);
+    background-repeat:no-repeat;
+    background-size: cover;
+    background-blend-mode: multiply;
 }
-
-.hero .currency p{
+.hero .currency p {
     word-spacing: 2px;
     line-height: 28px;
 } 
 
-.hero .token{
-    color: darkblue;
+.hero .token {
+    color: #00008b;
 }
 
 .hero .token .blogs ul li {
-    height: 93px;
-    font-size: 31px;
+    height: 94px;
+    font-size: 30px;
     font-weight: bold;
     box-shadow: 0 4px 8px 0 rgb(0 0 0 / 20%), 0 6px 20px 0 rgb(0 0 0 / 19%);
 }
 
-.hero .token .blogs .c-sign{
+.hero .token .blogs .c-sign {
     display: inline-block;
     width: 40px;
     height: 40px;
     box-shadow: 0 4px 8px 0 rgb(0 0 0 / 20%), 0 6px 20px 0 rgb(0 0 0 / 19%);
 }
 
-.hero .token .blogs ul li span{
+.hero .token .blogs ul li span {
     font-size: 20px;
 }
 
-.hero .token .soft .cap{
+.hero .token .soft .btn {
     box-shadow: 0 4px 8px 0 rgb(0 0 0 / 20%), 0 6px 20px 0 rgb(0 0 0 / 19%);
-    cursor: pointer;
-    color: darkblue;
-}
-
-.hero .scroll{
-    width: 39px;
-    margin: 0 auto;
+    color: #00008b;
 }
 
 /* financial css start here */
 
-.financial .video{
+
+.financial .video {
     overflow: hidden;
     opacity: 0.5;
     height: 250px;
@@ -122,153 +110,138 @@ header .navbar .navbar-nav{
 
 /* sale css start here */
 .sale {
-    color: darkblue;
+    color: #00008b;
 }
-.sale .buy .blogs ul li{
-    height: 93px;
-    font-size: 31px;
+.sale .buy .blogs ul li {
+    height: 94px;
+    font-size: 30px;
     font-weight: bold;
     box-shadow: 0 4px 8px 0 rgb(0 0 0 / 20%), 0 6px 20px 0 rgb(0 0 0 / 19%);
 }
-.sale .buy{
+.sale .buy {
     box-shadow: 0 4px 8px 0 rgb(0 0 0 / 20%), 0 6px 20px 0 rgb(0 0 0 / 19%);
     width: 100%;
 }
 
-.sale .buy .blogs .c-sign{
+.sale .buy .blogs .c-sign {
     display: inline-block;
     width: 40px;
     height: 40px;
-    color: darkblue;
+    color: #00008b;
     box-shadow: 0 4px 8px 0 rgb(0 0 0 / 20%), 0 6px 20px 0 rgb(0 0 0 / 19%);
 }
 
-.sale .buy .blogs ul li span{
+.sale .buy .blogs ul li span {
     font-size: 20px;
 }
 
-.sale .caps .btn{
+.sale .caps .btn {
     color: #5050d9;
 }
 
 /* about css start here */
 
-.about .years .year{
+.about .years .year {
     color: #00008b;
 }
 
 /* teamk css start here */
 
-.team .top-bio{
+.team .top-bio {
     box-shadow: 0 0px 0px 0 rgb(0 0 0 / 20%), 0 0px 2px 0 rgb(0 0 0 / 19%);
 }
 
 .team .developer .bio .fig-img figure {
-    border: 6px solid white;
-    /* width: 278px; */
+    border: 5px solid #ffffff;
     width: 250px;
     height: 242px;
-    margin: 0 auto; /* mx-auto */
     overflow: hidden;
 }
 
-.team .developer .bio{
+.team .developer .bio {
     height: 400px;
 }
 
-.team .developer .bio .fig-img figure img{
-    width: 100%;/* w-100 */
-}
-
-.team .developer .bio .fig-img{
+.team .developer .bio .fig-img {
     margin: -10px;
-}
-
-/* partnew css start here */
-
-.partner .oscar figure img{
-    width: 100%;/* w-100 */
 }
 
 /* distrip css start here */
 
-.distrip .accordion .card{
+.distrip .accordion .card {
     box-shadow: 0px 0px 14px -3px;
 }
 
-.card-header{
+.card-header {
     background: #4834d3;
 }
 
-.card-header .card-link{
+.card-header .card-link {
     text-decoration: none;
     color: white;
 }
 
-.card-body{
+.card-body {
     background: #4834d3;
 }
 
 /* stay css start here */
 
-.stay form input{
+.stay form input {
     background: #4834d3;
-    box-shadow: 0px 0px 16px -10px;
+    box-shadow: 0px 0px 15px -10px;
 }
 
-.stay form ::-webkit-input-placeholder{
-    color: white;
+.stay form ::-webkit-input-placeholder {
+    color: #ffffff;
 }
 
-.stay form .long{
+.stay form .long {
     height: 150px;
 }
 
 /* footer csss start here */
-footer .upper .email form fieldset{
+footer .upper .email form fieldset {
     overflow: hidden;
 
 }
-footer .upper .email form input{
+footer .upper .email form input {
     width: 70%;
     position: relative;
 }
-footer .upper .email form .btn{
+footer .upper .email form .btn {
    width: 30%;
    border: 0;
    border-radius: 0;
 }
 
-footer .upper .email form ::-webkit-input-placeholder{
+footer .upper .email form ::-webkit-input-placeholder {
     font-size: 14;
-    color: darkblue;
+    color: #00008b;
 }
 
-footer .lower .social ul li{
+footer .lower .social ul li {
     width: 50px;
     cursor: pointer;
     height: 50px;
     padding: 14px;
 }
 
-footer .lower{
+footer .lower {
     border-top: 1px solid #fff;
     border-bottom: 1px solid  #fff;
 }
 
 /* media query start here */
 
-@media screen and (min-width: 768px){
-    header .logo{
-        width: 0%;
-        text-align: left;
-    }
+@media screen and (min-width: 768px) {
+   
 }
 
-@media screen and (min-width: 992px){
+@media screen and (min-width: 992px) {
 
 }
 
-@media screen and (min-width: 1200px){
+@media screen and (min-: 1200px) {
 
 }
