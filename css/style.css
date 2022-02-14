@@ -74,6 +74,26 @@ header .logo {
 .hero .token {
     color: #00008b;
 }
+/* Sibling selector + */
+.navbar-toggler[aria-expanded="true"] + .navbar-collapse{
+    position: absolute;
+    top: 85px;
+    background-color: #000;
+    z-index: 9;
+    left: 0;
+    right: 0;
+    padding: 15px;
+    height: calc(100vh - 85px);
+    transition: none;
+}
+.navbar-collapse{
+    transition: none;
+}
+.navbar-toggler{
+    position: absolute;
+}
+
+
 
 .hero .token .blogs ul li {
     height: 94px;
