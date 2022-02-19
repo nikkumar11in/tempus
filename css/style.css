@@ -74,6 +74,13 @@ header .logo {
 .hero .token {
     color: #00008b;
 }
+.bg-red{
+    background-color: red!important;
+    height: 100px;
+    width: 100px;
+    border-radius: 50%;
+    overflow: hidden;
+}
 /* Sibling selector + */
 .navbar-toggler[aria-expanded="true"] + .navbar-collapse{
     position: absolute;
