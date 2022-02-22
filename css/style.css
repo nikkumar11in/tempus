@@ -74,6 +74,24 @@ header .logo {
 .hero .token {
     color: #00008b;
 }
+
+.soft-bg{
+    border-radius: 10%;
+    background: silver;
+    height: 40px;
+    width: 100px;
+    overflow: hidden;
+}
+
+
+.bg-green{
+    background: green;
+    height: 100px;
+    width: 100px;
+    border-radius: 50%;
+    overflow: hidden;
+}
+
 .bg-red{
     background-color: red!important;
     height: 100px;

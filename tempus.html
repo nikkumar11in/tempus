@@ -20,7 +20,7 @@
           <a href="javascript:void(0)"><img src="./image/logo.jpg" alt="logo-image"></a>
         </div>
         <nav class="navbar navbar-expand-lg navbar-light col-lg-9 col-6 justify-content-end font-s position-static">
-        <!-- <nav class="navbar navbar-expand-lg navbar-light col-lg-9 col-md-12 col-6 justify-content-end font-s"> -->
+          <!-- <nav class="navbar navbar-expand-lg navbar-light col-lg-9 col-md-12 col-6 justify-content-end font-s"> -->
           <button class="navbar-toggler bg-white" type="button" data-toggle="collapse" data-target="#navbarNavDropdown"
             aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
             <span class="navbar-toggler-icon"></span>
@@ -84,7 +84,8 @@
             <h2 id="heroTextBox"></h2>
 
             <p class="my-4 font-s" id="heroParaBox"></p>
-            <button type="button" id="distributionButton" class="btn btn-outline-light rounded-pill border-primary px-4 py-2 font-s ">TOKEN
+            <button type="button" id="distributionButton"
+              class="btn btn-outline-light rounded-pill border-primary px-4 py-2 font-s ">TOKEN
               DISTRIBUTION</button>
           </div>
           <div class="token col-lg-6 bg-white p-5 text-center">
@@ -92,10 +93,10 @@
               <div class="blogs">
                 <ul class="row list-unstyled justify-content-around">
                   <li class="col-lg-2 py-4 px-0 rounded" id="one">33</li>
-                  <li class="col-lg-2 py-4 px-0 rounded"id="two">14</li>
-                  <li class="col-lg-2 py-4 px-0 rounded"id="three">28</li>
-                  <li class="col-lg-2 py-4 px-0 rounded"id="four">3</li>
-                  <li class="col-lg-2 py-4 px-0 rounded"id="result"></li>
+                  <li class="col-lg-2 py-4 px-0 rounded" id="two">14</li>
+                  <li class="col-lg-2 py-4 px-0 rounded" id="three">28</li>
+                  <li class="col-lg-2 py-4 px-0 rounded" id="four">3</li>
+                  <li class="col-lg-2 py-4 px-0 rounded" id="result"></li>
                 </ul>
                 <div class="cbtn d-flex justify-content-between py-5 border-bottom border-secondary row">
                   <div class="doller col-lg-6 col-md-6 col-12">
@@ -117,10 +118,10 @@
               </div>
             </div>
             <div class="btn-group soft row justify-content-between mt-4" role="group" aria-label="Basic example">
-              <button type="button" class="btn col-lg-5 p-2 my-2 rounded font-s">Soft Cap - 5 M</button>
-              <button type="button" class="btn col-lg-5 p-2 my-2 rounded font-s">Bounty - 50M</button>
-              <button type="button" class="btn col-lg-5 p-2 my-2 rounded font-s">Hard Cap - 200M</button>
-              <button type="button" class="btn col-lg-5 p-2 my-2 rounded font-s">Ending - 5 May</button>
+              <button type="button" class="btn col-lg-5 p-2 my-2 rounded font-s" id="softbtn">Soft Cap - 5 M</button>
+              <button type="button" class="btn col-lg-5 p-2 my-2 rounded font-s" id="softsecnd">Bounty - 50M</button>
+              <button type="button" class="btn col-lg-5 p-2 my-2 rounded font-s" id="softbtn">Hard Cap - 200M</button>
+              <button type="button" class="btn col-lg-5 p-2 my-2 rounded font-s" id="softbtn">Ending - 5 May</button>
             </div>
           </div>
         </div>
@@ -131,11 +132,8 @@
       <div class="container">
         <div class="row text-md-left text-center">
           <div class="work col-lg-6">
-            <h2>We make financial system work better!</h2>
-            <p class="my-4 font-s">Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolores reiciendis possimus
-              blanditiis at ipsa. Nulla quidem distinctio assumenda exercitationem ex, ipsum sequi asperiores
-              voluptates. Laudantium porro eius inventore hic iusto, placeat aperiam magnam minima quas quasi aut vel.
-              Voluptates voluptatum sequi vero maxime! Illum system.</p>
+            <h2 id="system"></h2>
+            <p id="finpera" class="my-4 font-s"></p>
           </div>
           <div class="video col-lg-6 rounded">
             <iframe width="100%" height="250" src="https://www.youtube.com/embed/n9Y2Eb4BaSg"
@@ -151,12 +149,13 @@
       <div class="container">
         <div class="buy py-6 row justify-content-center text-center m-0">
           <div class="blogs col-lg-6 p-5">
-            <h2 class="head-b text-white font-weight-bold">Token Sale</h2>
+            <h2 class="head-b text-white font-weight-bold" id="tokenhead"></h2>
             <ul class="row justify-content-around list-unstyled">
-              <li class="col-lg-2 py-4 px-0 rounded bg-white">33 <span>d</span></li>
-              <li class="col-lg-2 py-4 px-0 rounded bg-white">14 <span>h</span></li>
-              <li class="col-lg-2 py-4 px-0 rounded bg-white" bg-white>28 <span>m</span></li>
-              <li class="col-lg-2 py-4 px-0 rounded bg-white">3 <span>s</span></li>
+              <li class="col-lg-2 py-4 px-0 rounded bg-white" id="apple">32 <span>d</span></li>
+              <li class="col-lg-2 py-4 px-0 rounded bg-white" id="ball">14 <span>h</span></li>
+              <li class="col-lg-2 py-4 px-0 rounded bg-white" id="cat">28 <span>m</span></li>
+              <li class="col-lg-2 py-4 px-0 rounded bg-white" id="dog">3 <span>s</span></li>
+              <li class="col-lg-2 py-4 px-0 rounded bg-white" id="final"></li>
             </ul>
             <div class="cbtn d-flex justify-content-between justify-content-md-center py-5 row">
               <div class="doller col-lg-6 col-12 row justify-content-center">
@@ -171,7 +170,8 @@
                 </div>
               </div>
               <div class="sale-btn col-lg-6 col-12 my-4 m-lg-0">
-                <button type="button" class="btn btn-outline-light rounded-pill btn-bg px-4 py-2 font-s border-0">BUY
+                <button type="button" class="btn btn-outline-light rounded-pill btn-bg px-4 py-2 font-s border-0"
+                  id="saletoken">BUY
                   TOKENS</button>
               </div>
             </div>
@@ -194,26 +194,26 @@
     <!-- about start here -->
     <section class="about py-6 text-center">
       <div class="container">
-        <h2 class="head-b font-weight-bold">What We Do Next</h2>
+        <h2 class="head-b font-weight-bold" id="abouthd"></h2>
         <div class="years row justify-content-between text-center">
           <div class="year col-lg-2 m-md-3 m-sm-2 m-1 bg-white rounded font-s py-3">
-            <h6>2018 1ST Q</h6>
+            <h6 id="smallesthead">2018 1ST Q</h6>
             <span>We start the project</span>
           </div>
           <div class="year col-lg-2 m-md-3 m-sm-2 m-1 bg-white rounded font-s py-3">
-            <h6>2018 1ST Q</h6>
+            <h6 id="smallesthead">2018 1ST Q</h6>
             <span>Security improvementst</span>
           </div>
           <div class="year col-lg-2 m-md-3 m-sm-2 m-1 bg-white rounded font-s py-3">
-            <h6>2018 2ND Q</h6>
+            <h6 id="smallesthead">2018 2ND Q</h6>
             <span>NKC starting mining</span>
           </div>
           <div class="year col-lg-2 m-md-3 m-sm-2 m-1 bg-white rounded font-s py-3">
-            <h6>2018 2ND Q</h6>
+            <h6 id="smallesthead">2018 2ND Q</h6>
             <span>Mining improvements</span>
           </div>
           <div class="year col-lg-2 m-md-3 m-sm-2 m-1 bg-white rounded font-s py-3">
-            <h6>2018 3RD Q</h6>
+            <h6 id="smallesthead">2018 3RD Q</h6>
             <span>ICO - 24 Aug. 22:00 GTM</span>
           </div>
         </div>
@@ -222,7 +222,7 @@
     <!-- team section start here -->
     <section class="team py-6">
       <div class="container">
-        <h2 class="head-b text-center font-weight-bold">Developers Team</h2>
+        <h2 class="head-b text-center font-weight-bold" id="teamhead"></h2>
         <div class="developer row">
           <div class="bio col-lg-4 col-md-6 my-5 my-lg-0 my-md-0">
             <div class="top-bio row justify-content-between py-3">
@@ -392,17 +392,20 @@
     <!-- partner section start here -->
     <section class="partner">
       <div class="container">
-        <h2 class="head-b text-center font-weight-bold">Partners</h2>
+        <h2 class="head-b text-center font-weight-bold" id="logos"></h2>
         <div class="oscar row justify-content-between">
-          <figure class="col-lg-2 col-md-6 col-sm-6 col-6 my-3"><img class="w-100" src="./image/WqYKA.png" alt="gray-logo">
+          <figure class="col-lg-2 col-md-6 col-sm-6 col-6 my-3"><img class="w-100" src="./image/WqYKA.png"
+              alt="gray-logo">
           </figure>
-          <figure class="col-lg-2 col-md-6 col-sm-6 col-6 my-3"><img class="w-100" src="./image/deshpande-skilling-gray.png"
-              alt="gray-logo"></figure>
-          <figure class="col-lg-2 col-md-6 col-sm-6 col-6 my-3"><img class="w-100" src="./image/logo-youtube-png-branco-4.png"
-              alt="gray-logo"></figure>
-          <figure class="col-lg-2 col-md-6 col-sm-6 col-6 my-3"><img class="w-100" src="./image/samsung.png" alt="gray-logo">
+          <figure class="col-lg-2 col-md-6 col-sm-6 col-6 my-3"><img class="w-100"
+              src="./image/deshpande-skilling-gray.png" alt="gray-logo"></figure>
+          <figure class="col-lg-2 col-md-6 col-sm-6 col-6 my-3"><img class="w-100"
+              src="./image/logo-youtube-png-branco-4.png" alt="gray-logo"></figure>
+          <figure class="col-lg-2 col-md-6 col-sm-6 col-6 my-3"><img class="w-100" src="./image/samsung.png"
+              alt="gray-logo">
           </figure>
-          <figure class="col-lg-2 col-md-6 col-sm-6 col-6 my-3"><img class="w-100" src="./image/graymn.png" alt="gray-logo">
+          <figure class="col-lg-2 col-md-6 col-sm-6 col-6 my-3"><img class="w-100" src="./image/graymn.png"
+              alt="gray-logo">
           </figure>
         </div>
       </div>
@@ -410,7 +413,7 @@
     <!-- section distrip start here -->
     <section class="distrip py-6">
       <div class="container">
-        <h2 class="text-center head-b font-weight-bold">Faq & Token Distrib.</h2>
+        <h2 class="text-center head-b font-weight-bold" id="dusthead"></h2>
         <div class="row text-center">
           <div class="col-lg-12">
             <div id="accordion">
@@ -418,128 +421,105 @@
               <div class="card border-0">
                 <!---card one---->
                 <div class="card-header">
-                  <a class="card-link" data-toggle="collapse" href="#collapseOne">
-                    GENERAL QUESTIONS
-                  </a>
+                  <a class="card-link" data-toggle="collapse" href="#collapseOne" id="generate"></a>
                 </div>
                 <div id="collapseOne" class="collapse show" data-parent="#accordion">
-                  <div class="card-body">
-                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Odit hic dolores deleniti incidunt quod ab
-                    impedit corporis, molestias sequi.
-                  </div>
+                  <div class="card-body" id="cardfun"></div>
                 </div>
               </div>
 
               <div class="card border-0">
                 <!---card two---->
                 <div class="card-header">
-                  <a class="collapsed card-link" data-toggle="collapse" href="#collapseTwo">
-                    What is ICO?
-                  </a>
+                  <a class="collapsed card-link" data-toggle="collapse" href="#collapseTwo" id="coll"></a>
                 </div>
                 <div id="collapseTwo" class="collapse" data-parent="#accordion">
-                  <div class="card-body">
-                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Reprehenderit, dolor impedit. Eaque iusto
-                    culpa error eos modi consectetur distinctio.
-                  </div>
+                  <div class="card-body" id="cardtwo"></div>
                 </div>
               </div>
 
               <div class="card border-0">
                 <!---card three---->
                 <div class="card-header">
-                  <a class="collapsed card-link" data-toggle="collapse" href="#collapseThree">
-                    What cryptocurrancy can i use purchase?
-                  </a>
+                  <a class="collapsed card-link" data-toggle="collapse" href="#collapseThree" id="crypto"></a>
                 </div>
                 <div id="collapseThree" class="collapse" data-parent="#accordion">
-                  <div class="card-body">
-                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Ipsa dolorum sint enim fugiat dolor
-                    repellendus iste inventore assumenda sapiente.
-                  </div>
+                  <div class="card-body" id="cardthree"></div>
                 </div>
               </div>
+
               <div class="card border-0">
                 <!---card four---->
                 <div class="card-header">
-                  <a class="collapsed card-link" data-toggle="collapse" href="#collapsefour">
-                    How can i participate to the token sale
+                  <a class="collapsed card-link" data-toggle="collapse" href="#collapsefour" id="participt">
+
                   </a>
                 </div>
                 <div id="collapsefour" class="collapse" data-parent="#accordion">
-                  <div class="card-body">
-                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Ipsa dolorum sint enim fugiat dolor
-                    repellendus iste inventore assumenda sapiente.
+                  <div class="card-body" id="cardfour">
+
                   </div>
                 </div>
               </div>
               <div class="card border-0">
                 <!---card five---->
                 <div class="card-header">
-                  <a class="collapsed card-link" data-toggle="collapse" href="#collapsefive">
-                    How to i benefit from the token sale
+                  <a class="collapsed card-link" data-toggle="collapse" href="#collapsefive" id="benifit">
+
                   </a>
                 </div>
                 <div id="collapsefive" class="collapse" data-parent="#accordion">
-                  <div class="card-body">
-                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Ipsa dolorum sint enim fugiat dolor
-                    repellendus iste inventore assumenda sapiente.
+                  <div class="card-body" id="cardfive">
+
                   </div>
                 </div>
               </div>
               <div class="card border-0">
                 <!---card six---->
                 <div class="card-header">
-                  <a class="collapsed card-link" data-toggle="collapse" href="#collapsesix">
-                    What is the maximum price per token?
+                  <a class="collapsed card-link" data-toggle="collapse" href="#collapsesix" id="cardsix">
+
                   </a>
                 </div>
                 <div id="collapsesix" class="collapse" data-parent="#accordion">
-                  <div class="card-body">
-                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Ipsa dolorum sint enim fugiat dolor
-                    repellendus iste inventore assumenda sapiente.
+                  <div class="card-body" id="cardseven">
+
                   </div>
                 </div>
               </div>
               <div class="card border-0">
                 <!---card seven---->
                 <div class="card-header">
-                  <a class="collapsed card-link" data-toggle="collapse" href="#collapseseven">
-                    LEGAL AGREEMENT
+                  <a class="collapsed card-link" data-toggle="collapse" href="#collapseseven" id="agree">
+
                   </a>
                 </div>
                 <div id="collapseseven" class="collapse" data-parent="#accordion">
-                  <div class="card-body">
-                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Ipsa dolorum sint enim fugiat dolor
-                    repellendus iste inventore assumenda sapiente.
+                  <div class="card-body" id="cardeight">
                   </div>
                 </div>
               </div>
               <div class="card border-0">
                 <!---card eight---->
                 <div class="card-header">
-                  <a class="collapsed card-link" data-toggle="collapse" href="#collapseeight">
-                    TOKEN
+                  <a class="collapsed card-link" data-toggle="collapse" href="#collapseeight" id="nine">
+
                   </a>
                 </div>
                 <div id="collapseeight" class="collapse" data-parent="#accordion">
-                  <div class="card-body">
-                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Ipsa dolorum sint enim fugiat dolor
-                    repellendus iste inventore assumenda sapiente.
+                  <div class="card-body" id="cardnine">
                   </div>
                 </div>
               </div>
               <div class="card border-0">
                 <!---card nine---->
                 <div class="card-header">
-                  <a class="collapsed card-link" data-toggle="collapse" href="#collapsenine">
-                    PRE-ICO & ICO INFORMATION
+                  <a class="collapsed card-link" data-toggle="collapse" href="#collapsenine" id="last">
+
                   </a>
                 </div>
-                <div id="collapsenine" class="collapse" data-parent="#accordion">
+                <div id="collapsenine" class="collapse" data-parent="#accordion" id="information">
                   <div class="card-body">
-                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Ipsa dolorum sint enim fugiat dolor
-                    repellendus iste inventore assumenda sapiente.
                   </div>
                 </div>
               </div>
@@ -551,7 +531,7 @@
     </section>
     <!-- stay by us section start here -->
     <section class="stay py-6">
-      <h2 class="head-b text-center">Stay by Us</h2>
+      <h2 class="head-b text-center" id="stay"></h2>
       <div class="container">
         <form>
           <fieldset class="row justify-content-between">
@@ -577,8 +557,8 @@
       <!-- upper div start here -->
       <div class="upper row align-items-center py-3">
         <div class="text col-lg-6">
-          <h2 class="font-weight-bold">Subscribe for more news</h2>
-          <p class="font-s">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Adipisci, perferendis!</p>
+          <h2 class="font-weight-bold" id="morehead"></h2>
+          <p class="font-s" id="peraform"></p>
         </div>
         <div class="email col-lg-6">
           <form>
@@ -595,9 +575,7 @@
           <figure class="mb-4">
             <a href="javascript:void(0)"><img src="./image/logo.jpg" alt="logo-image"></a>
           </figure>
-          <p class="font-s">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Libero dolores veniam excepturi
-            ullam maiores odio at possimus mollitia, modi exercitationem tenetur voluptate! Dolorem voluptatum ad
-            necessitatibus provident voluptas molestiae ;)</p>
+          <p class="font-s" id="formperatext"></p>
           <ul>
             <li class="list-unstyled bg-white d-inline-block mr-2">
               <a href="javascript:void(0)"><i class="fa-brands fa-facebook"></i></a>
@@ -650,7 +628,7 @@
       </div>
       <!-- status div start here -->
       <div class="status py-3">
-        <p>@Copyright CA Themes, 2018. ALL right reserved</p>
+        <p id="lastperatext"></p>
       </div>
     </div>
   </footer>
