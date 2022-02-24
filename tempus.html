@@ -120,8 +120,8 @@
             <div class="btn-group soft row justify-content-between mt-4" role="group" aria-label="Basic example">
               <button type="button" class="btn col-lg-5 p-2 my-2 rounded font-s" id="softbtn">Soft Cap - 5 M</button>
               <button type="button" class="btn col-lg-5 p-2 my-2 rounded font-s" id="softsecnd">Bounty - 50M</button>
-              <button type="button" class="btn col-lg-5 p-2 my-2 rounded font-s" id="softbtn">Hard Cap - 200M</button>
-              <button type="button" class="btn col-lg-5 p-2 my-2 rounded font-s" id="softbtn">Ending - 5 May</button>
+              <button type="button" class="btn col-lg-5 p-2 my-2 rounded font-s" id="softbtnThird">Hard Cap - 200M</button>
+              <button type="button" class="btn col-lg-5 p-2 my-2 rounded font-s" id="endingmay">Ending - 5 May</button>
             </div>
           </div>
         </div>
@@ -135,12 +135,12 @@
             <h2 id="system"></h2>
             <p id="finpera" class="my-4 font-s"></p>
           </div>
-          <div class="video col-lg-6 rounded">
+          <!-- <div class="video col-lg-6 rounded">
             <iframe width="100%" height="250" src="https://www.youtube.com/embed/n9Y2Eb4BaSg"
               title="YouTube video player" frameborder="0"
               allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
               allowfullscreen></iframe>
-          </div>
+          </div> -->
         </div>
       </div>
     </section>
@@ -151,10 +151,10 @@
           <div class="blogs col-lg-6 p-5">
             <h2 class="head-b text-white font-weight-bold" id="tokenhead"></h2>
             <ul class="row justify-content-around list-unstyled">
-              <li class="col-lg-2 py-4 px-0 rounded bg-white" id="apple">32 <span>d</span></li>
-              <li class="col-lg-2 py-4 px-0 rounded bg-white" id="ball">14 <span>h</span></li>
-              <li class="col-lg-2 py-4 px-0 rounded bg-white" id="cat">28 <span>m</span></li>
-              <li class="col-lg-2 py-4 px-0 rounded bg-white" id="dog">3 <span>s</span></li>
+              <li class="col-lg-2 py-4 px-0 rounded bg-white" id="apple">32</li>
+              <li class="col-lg-2 py-4 px-0 rounded bg-white" id="ball">14</li>
+              <li class="col-lg-2 py-4 px-0 rounded bg-white" id="cat">28</li>
+              <li class="col-lg-2 py-4 px-0 rounded bg-white" id="dog">3</li>
               <li class="col-lg-2 py-4 px-0 rounded bg-white" id="final"></li>
             </ul>
             <div class="cbtn d-flex justify-content-between justify-content-md-center py-5 row">
@@ -171,20 +171,20 @@
               </div>
               <div class="sale-btn col-lg-6 col-12 my-4 m-lg-0">
                 <button type="button" class="btn btn-outline-light rounded-pill btn-bg px-4 py-2 font-s border-0"
-                  id="saletoken">BUY
+                  id="days">BUY
                   TOKENS</button>
               </div>
             </div>
           </div>
           <div class="caps row justify-content-center">
             <button type="button"
-              class="btn btn-light bg-white py-3 px-5 mx-3 my-md-2 my-1 font-weight-bold font-s col-lg-3">Soft Cap -
+              class="btn btn-light bg-white py-3 px-5 mx-3 my-md-2 my-1 font-weight-bold font-s col-lg-3" id="softCapOne">Soft Cap -
               5M</button>
             <button type="button"
-              class="btn btn-light bg-white py-3 px-5 mx-3 my-md-2 my-1 font-weight-bold font-s col-lg-3">Hard Cap -
+              class="btn btn-light bg-white py-3 px-5 mx-3 my-md-2 my-1 font-weight-bold font-s col-lg-3" id="softCapTwo">Hard Cap -
               200M</button>
             <button type="button"
-              class="btn btn-light bg-white py-3 px-5 mx-3 my-md-2 my-1 font-weight-bold font-s col-lg-3">Ending -5
+              class="btn btn-light bg-white py-3 px-5 mx-3 my-md-2 my-1 font-weight-bold font-s col-lg-3" id="softCapThree">Ending -5
               April</button>
           </div>
         </div>
@@ -431,7 +431,7 @@
               <div class="card border-0">
                 <!---card two---->
                 <div class="card-header">
-                  <a class="collapsed card-link" data-toggle="collapse" href="#collapseTwo" id="coll"></a>
+                  <a class="collapsed card-link" data-toggle="collapse" href="#collapseTwo" id="roll"></a>
                 </div>
                 <div id="collapseTwo" class="collapse" data-parent="#accordion">
                   <div class="card-body" id="cardtwo"></div>
@@ -519,7 +519,7 @@
                   </a>
                 </div>
                 <div id="collapsenine" class="collapse" data-parent="#accordion" id="information">
-                  <div class="card-body">
+                  <div class="card-body" id="lastperatext">
                   </div>
                 </div>
               </div>
@@ -628,7 +628,7 @@
       </div>
       <!-- status div start here -->
       <div class="status py-3">
-        <p id="lastperatext"></p>
+        <p id="copyrighttext"></p>
       </div>
     </div>
   </footer>

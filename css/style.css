@@ -83,6 +83,43 @@ header .logo {
     overflow: hidden;
 }
 
+.btnYellow{
+    border: 1px solid #b7a8a8;
+    background: #efff00;
+    width: 56%;
+    color: white;
+    font-size: 10px;
+}
+
+.secondBtn{
+    background: red;
+    color: white;
+    border: 1px solid gray;
+}
+
+.fisrtSoftBtn{
+    background: black;
+    color:white;
+    border: 1px solid darkslateblue;
+}
+
+.btnStyling{
+    background-color: chocolate;
+    border: 2px solid red;
+}
+
+.thirdBtnTexts{
+    background-image: linear-gradient(blue, white, black);
+}
+
+.backToColor{
+    background: red;
+    border: 2px solid yellow;
+}
+
+.softcapOne{
+    background-image: linear-gradient(to right , darkblue , black);
+}
 
 .bg-green{
     background: green;
