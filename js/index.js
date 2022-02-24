@@ -323,11 +323,38 @@ function lastPeRaText() {
 
 lastPeRaText()
 
-// function softCapm(){
-//     var softCapm = document.getElementById("softCapOne")
-//     softCapm.addEventListener('click', function(){
-//         softCapm.classList.toggle("dradient")
-//     })
-// }
+function secondLast(){
+    var secondLast = document.getElementById("softCapTwo")
+    secondLast.addEventListener('click', function(){
+        secondLast.classList.toggle("bg-secondary")
+    })
+}
 
-// softCapm()
+secondLast()
+
+function softCapOne(){
+    var softCapOne = document.getElementById("softCapOne")
+    softCapOne.addEventListener('click', function(){
+        softCapOne.classList.toggle("bg-danger")
+    })
+}
+
+softCapOne()
+
+function softCapThree(){
+    var softCapThree = document.getElementById("softCapThree")
+    softCapThree.addEventListener('click', function(){
+        softCapThree.classList.toggle("bg-dark")
+    })
+}
+
+softCapThree()
+
+function subs(){
+    var subsbtn = document.getElementById("subs")
+    subsbtn.addEventListener('click', function(){
+        subsbtn.classList.toggle("dradient")
+    })
+}
+
+subs()
